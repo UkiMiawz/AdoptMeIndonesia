@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+    <umbraco:Macro Language="cshtml" runat="server">
+        @{
+            //Get the ?nodeID= value from the querystring
+            var nodeId = Request.QueryString["nodeId"];
+
+            //If nodeID is doesn't exist then...
+            if (nodeId == null) {
+                //Use our helper PropertySearch by passing in all Estate nodes under the Home node
+                @EstateSearch(Model.AncestorOrSelf("Home").Descendants("Estate"))
+            }
+            else {
+                //Get the loacationArea from the nodeID querystring variable
+                var locationArea = @Library.NodeById(nodeId);
+
+                //Use our helper PropetySearch by passing in the property children under the LocationArea
+                @EstateSearch(locationArea.Children)
+            }
+        }      
+    
+        
+        @helper EstateSearch(dynamic estates) 
+        {
+            //This is our helper to generate our JSON for our JS script
+
+            //Setup variables to store our values
+            var prices      = new List<int>();
+            var bedrooms    = new List<int>();
+            var bathrooms   = new List<int>();
+
+            //For each Estate in Estates
+            foreach (var estate in estates)
+            {
+                prices.Add(estate.Price);
+                bedrooms.Add(estate.Bedrooms);
+                bathrooms.Add(estate.Bathrooms);
+            }
+
+            //Build up our JSON string...
+            var result = "{ ";
+                result += "\"minPrice\": " + prices.Min() + ", ";
+                result += "\"maxPrice\": " + prices.Max() + ", ";
+
+                result += "\"minBedrooms\": " + bedrooms.Min() + ", ";
+                result += "\"maxBedrooms\": " + bedrooms.Max() + ", ";
+
+                result += "\"minBathrooms\": " + bathrooms.Min() + ", ";
+                result += "\"maxBathrooms\": " + bathrooms.Max();
+            result +=  " }";
+
+            //Output the JSON string to the page
+            @Html.Raw(result)
+        }
+    </umbraco:Macro>
+</asp:Content>

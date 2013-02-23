@@ -1,0 +1,2022 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>jquery-ui-1.8.16.custom.css</guid>
+      <orgPath>/css/custom-umbraco-theme</orgPath>
+      <orgName>jquery-ui-1.8.16.custom.css</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_diagonals-thick_18_b81900_40x40.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-bg_diagonals-thick_18_b81900_40x40.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_diagonals-thick_20_666666_40x40.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-bg_diagonals-thick_20_666666_40x40.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_flat_100_893155_40x100.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-bg_flat_100_893155_40x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_flat_100_ad3f6d_40x100.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-bg_flat_100_ad3f6d_40x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_flat_100_c64f81_40x100.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-bg_flat_100_c64f81_40x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_flat_100_ca618d_40x100.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-bg_flat_100_ca618d_40x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_flat_10_000000_40x100.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-bg_flat_10_000000_40x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_glass_65_ffffff_1x400.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-bg_glass_65_ffffff_1x400.png</orgName>
+    </file>
+    <file>
+      <guid>ui-bg_highlight-soft_75_ffe45c_1x100.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-bg_highlight-soft_75_ffe45c_1x100.png</orgName>
+    </file>
+    <file>
+      <guid>ui-icons_222222_256x240.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-icons_222222_256x240.png</orgName>
+    </file>
+    <file>
+      <guid>ui-icons_228ef1_256x240.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-icons_228ef1_256x240.png</orgName>
+    </file>
+    <file>
+      <guid>ui-icons_ffd27a_256x240.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-icons_ffd27a_256x240.png</orgName>
+    </file>
+    <file>
+      <guid>ui-icons_ffffff_256x240.png</guid>
+      <orgPath>/css/custom-umbraco-theme/images</orgPath>
+      <orgName>ui-icons_ffffff_256x240.png</orgName>
+    </file>
+    <file>
+      <guid>bg-pattern.png</guid>
+      <orgPath>/img</orgPath>
+      <orgName>bg-pattern.png</orgName>
+    </file>
+    <file>
+      <guid>bg-texture.png</guid>
+      <orgPath>/img</orgPath>
+      <orgName>bg-texture.png</orgName>
+    </file>
+    <file>
+      <guid>no-image.png</guid>
+      <orgPath>/img</orgPath>
+      <orgName>no-image.png</orgName>
+    </file>
+    <file>
+      <guid>rounded-top.png</guid>
+      <orgPath>/img</orgPath>
+      <orgName>rounded-top.png</orgName>
+    </file>
+    <file>
+      <guid>umbraco-logo.png</guid>
+      <orgPath>/img</orgPath>
+      <orgName>umbraco-logo.png</orgName>
+    </file>
+    <file>
+      <guid>bg_control_nav-purple.png</guid>
+      <orgPath>/img/flexslider-1.4</orgPath>
+      <orgName>bg_control_nav-purple.png</orgName>
+    </file>
+    <file>
+      <guid>bg_direction_nav.png</guid>
+      <orgPath>/img/flexslider-1.4</orgPath>
+      <orgName>bg_direction_nav.png</orgName>
+    </file>
+    <file>
+      <guid>site.js</guid>
+      <orgPath>/scripts</orgPath>
+      <orgName>site.js</orgName>
+    </file>
+    <file>
+      <guid>jquery-1.6.2.min.js</guid>
+      <orgPath>/scripts/libs</orgPath>
+      <orgName>jquery-1.6.2.min.js</orgName>
+    </file>
+    <file>
+      <guid>jquery-ui-1.8.16.custom.slider.min.js</guid>
+      <orgPath>/scripts/libs</orgPath>
+      <orgName>jquery-ui-1.8.16.custom.slider.min.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.flexslider-1.4.js</guid>
+      <orgPath>/scripts/libs</orgPath>
+      <orgName>jquery.flexslider-1.4.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.flexslider-min-1.4.js</guid>
+      <orgPath>/scripts/libs</orgPath>
+      <orgName>jquery.flexslider-min-1.4.js</orgName>
+    </file>
+    <file>
+      <guid>modernizr-2.0.6.min.js</guid>
+      <orgPath>/scripts/libs</orgPath>
+      <orgName>modernizr-2.0.6.min.js</orgName>
+    </file>
+    <file>
+      <guid>CheckDependencies.ascx</guid>
+      <orgPath>/usercontrols/RazorEstateAgent</orgPath>
+      <orgName>CheckDependencies.ascx</orgName>
+    </file>
+    <file>
+      <guid>cross.png</guid>
+      <orgPath>/usercontrols/RazorEstateAgent</orgPath>
+      <orgName>cross.png</orgName>
+    </file>
+    <file>
+      <guid>tick.png</guid>
+      <orgPath>/usercontrols/RazorEstateAgent</orgPath>
+      <orgName>tick.png</orgName>
+    </file>
+    <file>
+      <guid>RazorEstateAgent.StarterSite.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>RazorEstateAgent.StarterSite.dll</orgName>
+    </file>
+    <file>
+      <guid>Our.Umbraco.GoogleMaps.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Our.Umbraco.GoogleMaps.dll</orgName>
+    </file>
+    <file>
+      <guid>stonehenge-sunset.jpg</guid>
+      <orgPath>/media/755</orgPath>
+      <orgName>stonehenge-sunset.jpg</orgName>
+    </file>
+    <file>
+      <guid>stonehenge-sunset_thumb.jpg</guid>
+      <orgPath>/media/755</orgPath>
+      <orgName>stonehenge-sunset_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>bgcbwdzm.jpeg</guid>
+      <orgPath>/media/755/Cached</orgPath>
+      <orgName>bgcbwdzm.jpeg</orgName>
+    </file>
+    <file>
+      <guid>index.xml</guid>
+      <orgPath>/media/755/Cached</orgPath>
+      <orgName>index.xml</orgName>
+    </file>
+    <file>
+      <guid>stonehenge-detail.jpg</guid>
+      <orgPath>/media/1167</orgPath>
+      <orgName>stonehenge-detail.jpg</orgName>
+    </file>
+    <file>
+      <guid>stonehenge-detail_thumb.jpg</guid>
+      <orgPath>/media/1167</orgPath>
+      <orgName>stonehenge-detail_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>buckinghampalace-front.jpg</guid>
+      <orgPath>/media/835</orgPath>
+      <orgName>buckinghampalace-front.jpg</orgName>
+    </file>
+    <file>
+      <guid>buckinghampalace-front_thumb.jpg</guid>
+      <orgPath>/media/835</orgPath>
+      <orgName>buckinghampalace-front_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>04ef4140-c897-4bf2-ba83-57d5b2c7c8e4_index.xml</guid>
+      <orgPath>/media/835/Cached</orgPath>
+      <orgName>index.xml</orgName>
+    </file>
+    <file>
+      <guid>na0dcfp2.jpeg</guid>
+      <orgPath>/media/835/Cached</orgPath>
+      <orgName>na0dcfp2.jpeg</orgName>
+    </file>
+    <file>
+      <guid>buckinghampalace-guards.jpg</guid>
+      <orgPath>/media/1185</orgPath>
+      <orgName>buckinghampalace-guards.jpg</orgName>
+    </file>
+    <file>
+      <guid>buckinghampalace-guards_thumb.jpg</guid>
+      <orgPath>/media/1185</orgPath>
+      <orgName>buckinghampalace-guards_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>westminsterabbey-detail.jpg</guid>
+      <orgPath>/media/1203</orgPath>
+      <orgName>westminsterabbey-detail.jpg</orgName>
+    </file>
+    <file>
+      <guid>westminsterabbey-detail_thumb.jpg</guid>
+      <orgPath>/media/1203</orgPath>
+      <orgName>westminsterabbey-detail_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>fygvkt3b.jpeg</guid>
+      <orgPath>/media/1203/Cached</orgPath>
+      <orgName>fygvkt3b.jpeg</orgName>
+    </file>
+    <file>
+      <guid>ee111ebe-a6ef-4c54-bc2e-165aa83454ef_index.xml</guid>
+      <orgPath>/media/1203/Cached</orgPath>
+      <orgName>index.xml</orgName>
+    </file>
+    <file>
+      <guid>westminsterabbey-window.jpg</guid>
+      <orgPath>/media/1221</orgPath>
+      <orgName>westminsterabbey-window.jpg</orgName>
+    </file>
+    <file>
+      <guid>westminsterabbey-window_thumb.jpg</guid>
+      <orgPath>/media/1221</orgPath>
+      <orgName>westminsterabbey-window_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>westminsterabbey-architecture.jpg</guid>
+      <orgPath>/media/1239</orgPath>
+      <orgName>westminsterabbey-architecture.jpg</orgName>
+    </file>
+    <file>
+      <guid>westminsterabbey-architecture_thumb.jpg</guid>
+      <orgPath>/media/1239</orgPath>
+      <orgName>westminsterabbey-architecture_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>janeaustenhouse-front.jpg</guid>
+      <orgPath>/media/1321</orgPath>
+      <orgName>janeaustenhouse-front.jpg</orgName>
+    </file>
+    <file>
+      <guid>janeaustenhouse-front_thumb.jpg</guid>
+      <orgPath>/media/1321</orgPath>
+      <orgName>janeaustenhouse-front_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>00fafb50-a288-48ac-becf-934bda939f5e_index.xml</guid>
+      <orgPath>/media/1321/Cached</orgPath>
+      <orgName>index.xml</orgName>
+    </file>
+    <file>
+      <guid>wfnmmbnm.jpeg</guid>
+      <orgPath>/media/1321/Cached</orgPath>
+      <orgName>wfnmmbnm.jpeg</orgName>
+    </file>
+    <file>
+      <guid>janeaustenhouse.jpg</guid>
+      <orgPath>/media/1333</orgPath>
+      <orgName>janeaustenhouse.jpg</orgName>
+    </file>
+    <file>
+      <guid>janeaustenhouse_thumb.jpg</guid>
+      <orgPath>/media/1333</orgPath>
+      <orgName>janeaustenhouse_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>edinburghcastle.jpg</guid>
+      <orgPath>/media/985</orgPath>
+      <orgName>edinburghcastle.jpg</orgName>
+    </file>
+    <file>
+      <guid>edinburghcastle_thumb.jpg</guid>
+      <orgPath>/media/985</orgPath>
+      <orgName>edinburghcastle_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>e23e18b2-2dfc-4aa6-8fef-17dfe9a8390a_index.xml</guid>
+      <orgPath>/media/985/Cached</orgPath>
+      <orgName>index.xml</orgName>
+    </file>
+    <file>
+      <guid>n00lw51b.jpeg</guid>
+      <orgPath>/media/985/Cached</orgPath>
+      <orgName>n00lw51b.jpeg</orgName>
+    </file>
+    <file>
+      <guid>edinburghcastle-hall.jpg</guid>
+      <orgPath>/media/1263</orgPath>
+      <orgName>edinburghcastle-hall.jpg</orgName>
+    </file>
+    <file>
+      <guid>edinburghcastle-hall_thumb.jpg</guid>
+      <orgPath>/media/1263</orgPath>
+      <orgName>edinburghcastle-hall_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>lochness.jpg</guid>
+      <orgPath>/media/1405</orgPath>
+      <orgName>lochness.jpg</orgName>
+    </file>
+    <file>
+      <guid>lochness_thumb.jpg</guid>
+      <orgPath>/media/1405</orgPath>
+      <orgName>lochness_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>a2nb1e0m.jpeg</guid>
+      <orgPath>/media/1405/Cached</orgPath>
+      <orgName>a2nb1e0m.jpeg</orgName>
+    </file>
+    <file>
+      <guid>ebd269f4-3b2d-4abf-8197-3396a0f81ff6_index.xml</guid>
+      <orgPath>/media/1405/Cached</orgPath>
+      <orgName>index.xml</orgName>
+    </file>
+    <file>
+      <guid>blarneycastle-tower.jpg</guid>
+      <orgPath>/media/1285</orgPath>
+      <orgName>blarneycastle-tower.jpg</orgName>
+    </file>
+    <file>
+      <guid>blarneycastle-tower_thumb.jpg</guid>
+      <orgPath>/media/1285</orgPath>
+      <orgName>blarneycastle-tower_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>e727d7fc-f2b6-43f8-8995-850abb9572ed_index.xml</guid>
+      <orgPath>/media/1285/Cached</orgPath>
+      <orgName>index.xml</orgName>
+    </file>
+    <file>
+      <guid>qndlxwfq.jpeg</guid>
+      <orgPath>/media/1285/Cached</orgPath>
+      <orgName>qndlxwfq.jpeg</orgName>
+    </file>
+    <file>
+      <guid>92ad6a19-6fcf-4f88-a4db-e73de6b3f11b_CheckDependencies.ascx</guid>
+      <orgPath>/usercontrols/RazorEstateAgent</orgPath>
+      <orgName>CheckDependencies.ascx</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Razor Estate Agent Starter Site</name>
+      <version>1.0</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>http://our.umbraco.org/projects/starter-kits/razor-estate-agents-starter-site</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Umbraco HQ</name>
+      <website>http://umbraco.com</website>
+    </author>
+    <readme><![CDATA[This is the complete website package to the tutorial Razor Estate Agents Starter Site that has been published in the .NET Magazine.
+
+The tutorial featured in the .NET magazine will guide you from start to finish on how to create a HTML5 responsive website for Estate Agents.
+
+This project will be used to give you the necessary files to build your own Estate Agent website or if you wish to download the completed project if you wish and is specifically aimed at complete beginners to the Umbraco platform and will be a good starting point to learn the fundamentals of Umbraco.]]></readme>
+  </info>
+  <Documents>
+    <DocumentSet importMode="root">
+      <Home id="1052" parentID="-1" level="1" writerID="0" creatorID="0" nodeType="1044" template="1045" sortOrder="2" createDate="2011-08-19T09:46:14" updateDate="2011-09-13T09:39:12" nodeName="Home" urlName="home" writerName="Admin User" creatorName="Admin User" path="-1,1052" isDoc="">
+        <estateAgentName>My Estate Agent</estateAgentName>
+        <telephoneNumber>+45 70 26 11 62</telephoneNumber>
+        <pageTitle>My Estate Agent - An Umbraco Website built for .NET Magazine</pageTitle>
+        <metaDescription><![CDATA[This is an example HTML5 & CSS3 website built for a tutorial in the .NET Magazine]]></metaDescription>
+        <metaKeywords><![CDATA[Umbraco, Estate Agent, HTML5, CSS3]]></metaKeywords>
+        <umbracoNaviHide>0</umbracoNaviHide>
+        <Textpage id="1073" parentID="1052" level="2" writerID="0" creatorID="0" nodeType="1071" template="1072" sortOrder="0" createDate="2011-08-22T10:53:21" updateDate="2011-09-13T09:39:12" nodeName="About" urlName="about" writerName="Admin User" creatorName="Admin User" path="-1,1052,1073" isDoc="">
+          <bodyText><![CDATA[
+<p>This estate agent demo site was built for a tutorial for .NET
+Magazine by the wonderful guys at the Umbraco HQ to help you learn
+about the ASP.NET Open Source CMS Umbraco.</p>
+
+<h2>What is Umbraco?</h2>
+
+<p>Umbraco is a free Open Source ASP.NET CMS that allows you to
+have 100% total control over your markup.</p>
+
+<p>If you look at the markup for this site you will see it uses
+HTML5 &amp; CSS3 to create a responsive website. Umbraco doesn't
+force you to use any specific markup. If you wanted to go all retro
+and create a &lt;table&gt; based design with tons of spacer.gifs to
+remind you of the good ole days of web design then you can, but
+obviously we don't recommend it ;)</p>
+
+<p>There is nothing worse than a CMS deciding what markup you
+should use. That's why we give you 100% control over templating and
+output, with no limitations to your design.</p>
+
+<h2>Who is using Umbraco?</h2>
+
+<p>Umbraco runs over 110 thousand active umbraco installations.
+This number is not development or trial websites and powers sites
+from large corporatiosn to small companies.</p>
+
+<p>Some of the companies currently using Umbraco:</p>
+
+<ul>
+<li><a href="http://www.wired.co.uk"
+target="_blank">Wired.co.uk</a></li>
+
+<li><a href="http://GQ.co.uk" target="_blank">GQ.co.uk</a></li>
+
+<li><a href="http://www.heinz.com"
+target="_blank">Heinz.com</a></li>
+
+<li><a href="http://sandisk.com"
+target="_blank">Sandisk.com</a></li>
+
+<li><a href="http://www.takethat.com"
+target="_blank">TakeThat.com</a></li>
+</ul>
+
+<h2>How do I find out more?</h2>
+
+<p>You can find out more about Umbraco by visting the Umbraco
+website and its community website where you can find and install
+addons to Umbraco, ask questions on the forum, meetup up with other
+Umbraco users &amp; read through documentation on the wiki at
+http://our.umbraco.org</p>
+]]></bodyText>
+          <pageTitle />
+          <metaDescription><![CDATA[]]></metaDescription>
+          <metaKeywords><![CDATA[]]></metaKeywords>
+          <umbracoNaviHide>0</umbracoNaviHide>
+        </Textpage>
+        <Locations id="1055" parentID="1052" level="2" writerID="0" creatorID="0" nodeType="1046" template="1099" sortOrder="1" createDate="2011-08-19T09:58:19" updateDate="2011-09-13T09:41:47" nodeName="Locations" urlName="locations" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055" isDoc="">
+          <pageTitle />
+          <metaDescription><![CDATA[]]></metaDescription>
+          <metaKeywords><![CDATA[]]></metaKeywords>
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <LocationArea id="1056" parentID="1055" level="3" writerID="0" creatorID="0" nodeType="1053" template="1100" sortOrder="1" createDate="2011-08-19T10:01:39" updateDate="2011-12-15T11:59:59" nodeName="England" urlName="england" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056" isDoc="">
+            <pageTitle />
+            <metaDescription><![CDATA[]]></metaDescription>
+            <metaKeywords><![CDATA[]]></metaKeywords>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <Estate id="1063" parentID="1056" level="4" writerID="0" creatorID="0" nodeType="1048" template="1101" sortOrder="2" createDate="2011-08-19T10:18:28" updateDate="2011-12-15T12:12:34" nodeName="Stonehenge" urlName="stonehenge" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1063" isDoc="">
+              <price>450000</price>
+              <bedrooms>4</bedrooms>
+              <address><![CDATA[51.1788557,-1.8262042000000065,18]]></address>
+              <bathrooms>2</bathrooms>
+              <otherDetails><![CDATA[
+<p>What a great opportunity for those with both young &amp; teenage
+families. This large home offers space for everyone.</p>
+
+<p>Family cooking will be a breeze in the kitchen which utilizes
+the latest trend of 'open air culinary preperation', leading into a
+bright and breezy dining area, not to mention a large secure sunny
+garden with un-challenged views.</p>
+
+<p>The contemporary 'green' decor will not only show your friends
+your staunch position on being ecologically friendly, you really
+will feel every night as if you are falling asleep under the stars.
+In fact the bedroom layout has been cleverly designed so walls may
+be moved to configure a number of different designs.</p>
+
+<p>Parking is ample with the added benefits of extra space for the
+boat or extra cars.&nbsp;</p>
+
+<p>A great family home with so much to offer ..... elevated for sun
+&amp; fabulous entertaining areas with space for the children to
+run &amp; play safely.&nbsp;</p>
+
+<p>Opportunities like this seldom appear - make sure you don't miss
+out ....</p>
+]]></otherDetails>
+              <feature>1</feature>
+              <pageTitle />
+              <metaDescription><![CDATA[]]></metaDescription>
+              <metaKeywords><![CDATA[]]></metaKeywords>
+              <umbracoNaviHide>0</umbracoNaviHide>
+              <EstatePhoto id="1068" parentID="1063" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="0" createDate="2011-08-19T12:09:35" updateDate="2011-12-15T12:58:13" nodeName="Sunset" urlName="sunset" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1063,1068" isDoc="">
+                <image>/media/755/stonehenge-sunset.jpg</image>
+                <imageCaption>Sunset - Creative Commons: http://www.flickr.com/photos/grandhi/4667627395/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+              <EstatePhoto id="1107" parentID="1063" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="2" createDate="2011-12-15T13:04:18" updateDate="2011-12-15T13:05:04" nodeName="Detail" urlName="detail" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1063,1107" isDoc="">
+                <image>/media/1167/stonehenge-detail.jpg</image>
+                <imageCaption>Detail- Creative Commons: http://www.flickr.com/photos/marcella_bona/4603398429/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+            </Estate>
+            <Estate id="1080" parentID="1056" level="4" writerID="0" creatorID="0" nodeType="1048" template="1101" sortOrder="3" createDate="2011-08-24T10:11:53" updateDate="2011-12-15T12:02:36" nodeName="Buckingham Palace" urlName="buckingham-palace" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1080" isDoc="">
+              <price>100000000</price>
+              <bedrooms>775</bedrooms>
+              <address><![CDATA[51.50096910000001,-0.1426506000000245,17]]></address>
+              <bathrooms>78</bathrooms>
+              <otherDetails><![CDATA[
+<p>The saying goes that a man's home is his castle and never has
+this been more true than with this very special property.</p>
+
+<p>Built in 1705 and owned exclusively by one family until it's
+current sale, this home has gone through quite a number of
+additions and alterations in the last two centuries although we can
+guarantee all have been permitted and passed by council.</p>
+
+<p>No dodgy add-ons here!&nbsp; Situated in the very exclusive City
+of Westminster, this stately home boasts 775 rooms. These include
+19 State rooms, 52 bedrooms, 188 staff bedrooms, 92 offices and 78
+bathrooms.&nbsp; Unfortunately any staff needed to maintain said
+number of rooms is not included in the sale of the home and are to
+be provided at the new owners discretion.</p>
+
+<p>The beautiful grounds stretch well over 40 acres and due to the
+previous owners fondness for dogs is well fenced and
+coincidentally, well fertilized, producing a wealth of both floral
+and edible delights for it's new owner. If this could be you, don't
+delay, call us today!</p>
+]]></otherDetails>
+              <feature>1</feature>
+              <pageTitle />
+              <metaDescription><![CDATA[]]></metaDescription>
+              <metaKeywords><![CDATA[]]></metaKeywords>
+              <umbracoNaviHide>0</umbracoNaviHide>
+              <EstatePhoto id="1092" parentID="1080" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="1" createDate="2011-09-09T12:27:37" updateDate="2011-12-15T13:54:06" nodeName="Front" urlName="front" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1080,1092" isDoc="">
+                <image>/media/835/buckinghampalace-front.jpg</image>
+                <imageCaption>Entrance - Creative Commons: http://www.flickr.com/photos/tonymadrid/3144243918/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+              <EstatePhoto id="1108" parentID="1080" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="2" createDate="2011-12-15T15:10:24" updateDate="2011-12-15T15:11:10" nodeName="Guards" urlName="guards" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1080,1108" isDoc="">
+                <image>/media/1185/buckinghampalace-guards.jpg</image>
+                <imageCaption>Guards - Creative Commons: http://www.flickr.com/photos/matteo80/3539702465/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+            </Estate>
+            <Estate id="1104" parentID="1056" level="4" writerID="0" creatorID="0" nodeType="1048" template="1101" sortOrder="3" createDate="2011-12-15T12:15:09" updateDate="2011-12-15T12:19:16" nodeName="Westminster Abbey" urlName="westminster-abbey" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1104" isDoc="">
+              <price>10</price>
+              <bedrooms>1</bedrooms>
+              <address><![CDATA[51.4994118,-0.12727940000002036,17]]></address>
+              <bathrooms>1</bathrooms>
+              <otherDetails><![CDATA[
+<p>You'd have to be living under a rock the last decade if you
+havn't caught onto the latest in home trends.... "church
+conversions".&nbsp; The opportunity exists for a limited time only
+to purchase the ultimate in church conversion property.&nbsp;</p>
+
+<p>Now it could be your home if you don't delay and call me
+today.&nbsp; It is true that church conversions aren't easy
+projects to take on board.&nbsp; The integrity of the structure,
+architecture, and many of the artifacts and art cannot be touched
+or changed in anyway.&nbsp;</p>
+
+<p>You may be called upon by members of the royal family to lend it
+to them for an hour or two should a wedding or other such occasion
+arise.&nbsp;</p>
+
+<p>Sundays will be social affairs as thousands flock to mass in
+your front living room. It is not for the faint hearted.&nbsp;
+Interested?&nbsp; Call me today to discuss your options.&nbsp;</p>
+]]></otherDetails>
+              <feature>0</feature>
+              <pageTitle />
+              <metaDescription><![CDATA[]]></metaDescription>
+              <metaKeywords><![CDATA[]]></metaKeywords>
+              <umbracoNaviHide>0</umbracoNaviHide>
+              <EstatePhoto id="1109" parentID="1104" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="1" createDate="2011-12-15T15:16:32" updateDate="2011-12-15T15:17:20" nodeName="Detail" urlName="detail" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1104,1109" isDoc="">
+                <image>/media/1203/westminsterabbey-detail.jpg</image>
+                <imageCaption>Detail - Creative Commons: http://www.flickr.com/photos/wallyg/301335416/in/photostream/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+              <EstatePhoto id="1110" parentID="1104" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="2" createDate="2011-12-15T15:21:45" updateDate="2011-12-15T15:22:21" nodeName="Window" urlName="window" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1104,1110" isDoc="">
+                <image>/media/1221/westminsterabbey-window.jpg</image>
+                <imageCaption>Window - Creative Commons: http://www.flickr.com/photos/jamesstringer/2662594361/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+              <EstatePhoto id="1111" parentID="1104" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="3" createDate="2011-12-15T15:31:05" updateDate="2011-12-15T15:32:22" nodeName="Architecture" urlName="architecture" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1104,1111" isDoc="">
+                <image>/media/1239/westminsterabbey-architecture.jpg</image>
+                <imageCaption>Architecture - Creative Commons: http://www.flickr.com/photos/herry/5334767433/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+            </Estate>
+            <Estate id="1105" parentID="1056" level="4" writerID="0" creatorID="0" nodeType="1048" template="1101" sortOrder="4" createDate="2011-12-15T12:20:12" updateDate="2011-12-16T15:36:17" nodeName="Jane Austen's House" urlName="jane-austen's-house" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1105" isDoc="">
+              <price>595000</price>
+              <bedrooms>6</bedrooms>
+              <address><![CDATA[51.133093,-0.9890050000000201,19]]></address>
+              <bathrooms>1</bathrooms>
+              <otherDetails><![CDATA[
+<p>If one has any sense, or sensibility, you will make sure to come
+and check out this charming little cottage.</p>
+
+<p>Owned once by a charming female writer who gained popularity
+writing novels surrounding the particulars and peculiarities of
+society and romance in pre-industrial England, you are sure to fall
+in love and be more than a little romanced by the beautiful gardens
+and charming interiors.</p>
+
+<p>A 17th centuary house situated in Chawton, the home is complete
+with beautiful drawing room, cozy fireplace, 6 bedrooms and a well
+appointed bathroom. Don't let the fact this home is Heritage listed
+put you off, we are fairly certain council will be releasing it to
+the public soon enough.... buy now, and when it is it's sure to be
+a worthy investment!</p>
+]]></otherDetails>
+              <feature>0</feature>
+              <pageTitle />
+              <metaDescription><![CDATA[]]></metaDescription>
+              <metaKeywords><![CDATA[]]></metaKeywords>
+              <umbracoNaviHide>0</umbracoNaviHide>
+              <EstatePhoto id="1113" parentID="1105" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="1" createDate="2011-12-16T15:32:34" updateDate="2011-12-16T15:33:51" nodeName="Front" urlName="front" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1105,1113" isDoc="">
+                <image>/media/1321/janeaustenhouse-front.jpg</image>
+                <imageCaption>Front - Creative Commons: http://www.flickr.com/photos/garthimage/121402133/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+              <EstatePhoto id="1114" parentID="1105" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="2" createDate="2011-12-16T15:35:07" updateDate="2011-12-16T15:35:24" nodeName="House" urlName="house" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1056,1105,1114" isDoc="">
+                <image>/media/1333/janeaustenhouse.jpg</image>
+                <imageCaption>House - Creative Commons: http://www.flickr.com/photos/iknow-uk/3752733342/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+            </Estate>
+          </LocationArea>
+          <LocationArea id="1057" parentID="1055" level="3" writerID="0" creatorID="0" nodeType="1053" template="1100" sortOrder="2" createDate="2011-08-19T10:02:04" updateDate="2011-12-15T12:00:05" nodeName="Scotland" urlName="scotland" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1057" isDoc="">
+            <pageTitle />
+            <metaDescription><![CDATA[]]></metaDescription>
+            <metaKeywords><![CDATA[]]></metaKeywords>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <Estate id="1093" parentID="1057" level="4" writerID="0" creatorID="0" nodeType="1048" template="1101" sortOrder="1" createDate="2011-09-09T12:28:23" updateDate="2011-12-16T15:41:56" nodeName="Edinburgh Castle" urlName="edinburgh-castle" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1057,1093" isDoc="">
+              <price>995000</price>
+              <bedrooms>2</bedrooms>
+              <address><![CDATA[55.948724298610976,-3.200293748687727,17]]></address>
+              <bathrooms>1</bathrooms>
+              <otherDetails><![CDATA[
+<p>Before I tell you about the many, many fantastic features of
+this centuries old home, let me whet your appetite by revealing
+that THIS home is perched upon it's own extinct volcano!&nbsp;
+Exciting?&nbsp; We've only just begun!&nbsp;</p>
+
+<p>Built of time tested materials and oozing olde year Scottish
+character and charm, this beautiful home has a lot of love to give
+it's newest owners.&nbsp;</p>
+
+<p>This large, open plan property is perfect for families of all
+ages and stages.&nbsp; Boasting many bathrooms and twice again
+number of bedrooms, those willing to put in a bit of work to
+modernize the decor will reap the rewards.&nbsp;</p>
+
+<p>This could also be the perfect 'work from home' or 'home and
+income' opportunity so popular in today's property market with
+plenty of room for a home office or an exchange student or two to
+help pay the mortgage.&nbsp;</p>
+
+<p>Did we mention it has it's own dog cemetery?!&nbsp; Want to know
+more?&nbsp; Contact us now!</p>
+]]></otherDetails>
+              <feature>0</feature>
+              <pageTitle />
+              <metaDescription><![CDATA[]]></metaDescription>
+              <metaKeywords><![CDATA[]]></metaKeywords>
+              <umbracoNaviHide>0</umbracoNaviHide>
+              <EstatePhoto id="1094" parentID="1093" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="1" createDate="2011-09-09T12:29:30" updateDate="2011-12-16T15:25:19" nodeName="Castle" urlName="castle" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1057,1093,1094" isDoc="">
+                <image>/media/985/edinburghcastle.jpg</image>
+                <imageCaption>Castle - Creative Commons: http://www.flickr.com/photos/neil_roger/4265264165/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+              <EstatePhoto id="1112" parentID="1093" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="2" createDate="2011-12-15T15:51:51" updateDate="2011-12-16T15:25:30" nodeName="Hall" urlName="hall" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1057,1093,1112" isDoc="">
+                <image>/media/1263/edinburghcastle-hall.jpg</image>
+                <imageCaption>Hall - Creative Commons: http://www.flickr.com/photos/les_willis/4574538028/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+            </Estate>
+            <Estate id="1106" parentID="1057" level="4" writerID="0" creatorID="0" nodeType="1048" template="1101" sortOrder="2" createDate="2011-12-15T12:36:24" updateDate="2011-12-16T15:42:26" nodeName="Loch Ness" urlName="loch-ness" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1057,1106" isDoc="">
+              <price>675000</price>
+              <bedrooms>4</bedrooms>
+              <address><![CDATA[57.3,-4.4500000000000455,12]]></address>
+              <bathrooms>2</bathrooms>
+              <otherDetails><![CDATA[
+<p>Anyone can buy a piece of land to build their dream home on, but
+what about owning your own lake?&nbsp;</p>
+
+<p>House boats are the latest in celebrity trends with artists such
+as Britney Spears and Usher opting for the elegance and freedom
+that living on the water affords.&nbsp; Land owners are catching on
+quick and are now offering up lakes, rivers and estuary's for
+astute buyers to add to their property portfolio.&nbsp;</p>
+
+<p>Our agency is proud to have on its books a very special body of
+water, a large, deep, freshwater loch, situated in the heart of the
+Scottish Highlands.&nbsp;Included in the sale is a large
+house-boat, comprising of 3 roomy sleeping quarters, a sizeable
+galley kitchen and two bathrooms equipped with heated towel rails
+and double spa baths.&nbsp;</p>
+
+<p>Owners will even throw in the&nbsp;cryptozoological&nbsp;Loch
+Ness Monster, also known affectionately as "Nessie" for free.&nbsp;
+Call me today!</p>
+]]></otherDetails>
+              <feature>0</feature>
+              <pageTitle />
+              <metaDescription><![CDATA[]]></metaDescription>
+              <metaKeywords><![CDATA[]]></metaKeywords>
+              <umbracoNaviHide>0</umbracoNaviHide>
+              <EstatePhoto id="1115" parentID="1106" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="1" createDate="2011-12-16T15:47:43" updateDate="2011-12-16T15:48:03" nodeName="View" urlName="view" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1057,1106,1115" isDoc="">
+                <image>/media/1405/lochness.jpg</image>
+                <imageCaption>View - Creative Commons: http://www.flickr.com/photos/malavoda/5820487247/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+            </Estate>
+          </LocationArea>
+          <LocationArea id="1058" parentID="1055" level="3" writerID="0" creatorID="0" nodeType="1053" template="1100" sortOrder="3" createDate="2011-08-19T10:02:22" updateDate="2011-12-15T12:49:06" nodeName="Ireland" urlName="ireland" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1058" isDoc="">
+            <pageTitle />
+            <metaDescription><![CDATA[]]></metaDescription>
+            <metaKeywords><![CDATA[]]></metaKeywords>
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <Estate id="1095" parentID="1058" level="4" writerID="0" creatorID="0" nodeType="1048" template="1101" sortOrder="1" createDate="2011-09-09T12:30:13" updateDate="2011-12-16T09:36:56" nodeName="Blarney Castle" urlName="blarney-castle" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1058,1095" isDoc="">
+              <price>475000</price>
+              <bedrooms>13</bedrooms>
+              <address><![CDATA[51.929021289410066,-8.570908936167939,19]]></address>
+              <bathrooms>3</bathrooms>
+              <otherDetails><![CDATA[
+<p>If owning your own piece of Irish history sounds like your kind
+of deal, have I got the deal for you! The interior is in ruins, the
+structural integrity is questionable, but if you don't shy away
+from a little hard work this may just be the renovation pay off of
+the last century (or 2)!</p>
+
+<p>With 13 bedrooms, a throne room, what may have once been 3
+bathrooms, a banquet hall and a decent sized dungeon, there is
+something for everyone in your family at this property. And for
+little Jimmy who suffers from that terrible stutter, this home even
+features it's own medieval stone which, if hung upside-down over a
+sheer drop to kiss, is said to give the gift of eloquence.
+Priceless! Do it for the kids! Call me today.</p>
+]]></otherDetails>
+              <feature>1</feature>
+              <pageTitle />
+              <metaDescription><![CDATA[]]></metaDescription>
+              <metaKeywords><![CDATA[]]></metaKeywords>
+              <umbracoNaviHide>0</umbracoNaviHide>
+              <EstatePhoto id="1097" parentID="1095" level="5" writerID="0" creatorID="0" nodeType="1051" template="0" sortOrder="2" createDate="2011-09-09T12:31:15" updateDate="2011-12-16T15:25:44" nodeName="Tower" urlName="tower" writerName="Admin User" creatorName="Admin User" path="-1,1052,1055,1058,1095,1097" isDoc="">
+                <image>/media/1285/blarneycastle-tower.jpg</image>
+                <imageCaption>Tower - Creative Commons: http://www.flickr.com/photos/wallyhartshorn/474211889/</imageCaption>
+                <pageTitle />
+                <metaDescription><![CDATA[]]></metaDescription>
+                <metaKeywords><![CDATA[]]></metaKeywords>
+                <umbracoNaviHide>0</umbracoNaviHide>
+              </EstatePhoto>
+            </Estate>
+          </LocationArea>
+        </Locations>
+        <Search id="1090" parentID="1052" level="2" writerID="0" creatorID="0" nodeType="1088" template="1087" sortOrder="3" createDate="2011-08-24T15:49:03" updateDate="2011-09-13T09:39:23" nodeName="Search" urlName="search" writerName="Admin User" creatorName="Admin User" path="-1,1052,1090" isDoc="">
+          <pageTitle />
+          <metaDescription><![CDATA[]]></metaDescription>
+          <metaKeywords><![CDATA[]]></metaKeywords>
+          <umbracoNaviHide>1</umbracoNaviHide>
+        </Search>
+      </Home>
+    </DocumentSet>
+  </Documents>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>Master</Name>
+        <Alias>Master</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowedTemplates>
+          <Template>Master</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Master</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Page Title</Name>
+          <Alias>pageTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[This is the Page Title]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Meta Description</Name>
+          <Alias>metaDescription</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Meta Keywords</Name>
+          <Alias>metaKeywords</Alias>
+          <Type>67db8357-ef57-493e-91ac-936d305e0f2a</Type>
+          <Definition>c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3</Definition>
+          <Tab>Meta</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide in Navigation</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Hide in Navigation]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>10</Id>
+          <Caption>Meta</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Estate</Name>
+        <Alias>Estate</Alias>
+        <Icon>.sprTreeDocPic</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>An estate that is for sale</Description>
+        <Master>Master</Master>
+        <AllowedTemplates>
+          <Template>Estate</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Estate</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>EstatePhoto</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Price</Name>
+          <Alias>price</Alias>
+          <Type>1413afcb-d19a-4173-8e9a-68288d2a73b8</Type>
+          <Definition>2e6d3631-066e-44b8-aec4-96f09099b2b5</Definition>
+          <Tab>Details</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Price of the property]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Bedrooms</Name>
+          <Alias>bedrooms</Alias>
+          <Type>1413afcb-d19a-4173-8e9a-68288d2a73b8</Type>
+          <Definition>2e6d3631-066e-44b8-aec4-96f09099b2b5</Definition>
+          <Tab>Details</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Number of Bedrooms]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Address</Name>
+          <Alias>address</Alias>
+          <Type>1b64eae2-f9a1-4276-a071-f25dde6913dd</Type>
+          <Definition>f2dc91b9-b511-450d-9631-eb0e9f49f48d</Definition>
+          <Tab>Location</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[The property location]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Bathrooms</Name>
+          <Alias>bathrooms</Alias>
+          <Type>1413afcb-d19a-4173-8e9a-68288d2a73b8</Type>
+          <Definition>2e6d3631-066e-44b8-aec4-96f09099b2b5</Definition>
+          <Tab>Details</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Number of bathrooms]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Other Details</Name>
+          <Alias>otherDetails</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Details</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[HTML editor for other details about the property]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Feature</Name>
+          <Alias>feature</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Details</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Feature on the the homepage?]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>8</Id>
+          <Caption>Details</Caption>
+        </Tab>
+        <Tab>
+          <Id>9</Id>
+          <Caption>Location</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Estate Photo</Name>
+        <Alias>EstatePhoto</Alias>
+        <Icon>.sprTreeMediaPhoto</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>A photo of the estate</Description>
+        <Master>Master</Master>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Image</Name>
+          <Alias>image</Alias>
+          <Type>5032a6e6-69e3-491d-bb28-cd31cd11086c</Type>
+          <Definition>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Definition>
+          <Tab>Image</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Image Caption</Name>
+          <Alias>imageCaption</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Image</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Caption for the image]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>7</Id>
+          <Caption>Image</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Home</Name>
+        <Alias>Home</Alias>
+        <Icon>.sprTreeSettingDomain</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>The homepage for your estate agent site</Description>
+        <Master>Master</Master>
+        <AllowedTemplates>
+          <Template>Home</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Home</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Locations</DocumentType>
+        <DocumentType>Textpage</DocumentType>
+        <DocumentType>Search</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Estate Agent Name</Name>
+          <Alias>estateAgentName</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>True</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[The estate agent company name]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Telephone Number</Name>
+          <Alias>telephoneNumber</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[The telephone number for the header]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>6</Id>
+          <Caption>Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Location Area</Name>
+        <Alias>LocationArea</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>A location of houses for sale, such as London</Description>
+        <Master>Master</Master>
+        <AllowedTemplates>
+          <Template>LocationArea</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>LocationArea</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Estate</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Locations</Name>
+        <Alias>Locations</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>This page is to list all the location areas</Description>
+        <Master>Master</Master>
+        <AllowedTemplates>
+          <Template>Locations</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Locations</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>LocationArea</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Search</Name>
+        <Alias>Search</Alias>
+        <Icon>.sprTreeDeveloperMacro</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Master</Master>
+        <AllowedTemplates>
+          <Template>Search</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Search</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Textpage</Name>
+        <Alias>Textpage</Alias>
+        <Icon>.sprTreeDoc</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <Master>Master</Master>
+        <AllowedTemplates>
+          <Template>Textpage</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>Textpage</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>Textpage</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Body Text</Name>
+          <Alias>bodyText</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[The text for the page]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>11</Id>
+          <Caption>Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+  </DocumentTypes>
+  <Templates>
+    <Template>
+      <Name>Estate</Name>
+      <Alias>Estate</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="pageContent" runat="server">
+    <h2>
+        <umbraco:Macro runat="server" Language="cshtml">
+            <!-- Display page name & format the price to £150,000.00 -->
+            @Model.Name<br />
+            @string.Format("{0:c}",Model.price)
+        </umbraco:Macro>
+    </h2>
+
+    <!-- Photo Carousel using Flex Slider -->
+    <div class="flexslider-container">
+      <div class="flexslider">
+          <ul class="slides">
+                <umbraco:Macro runat="server" Language="cshtml">
+                    <!-- For each child page of the current page -->
+                    @foreach (var page in Model.Children) {
+                        <li>
+                            <img src="@page.Image" alt="@page.ImageCaption" />
+                            <!-- If the image caption is not empty then display it -->
+                            @if(@page.HasValue("ImageCaption"))
+                            {
+                                <p class="flex-caption">@page.ImageCaption</p>
+                            }
+                        </li>
+                    }
+                </umbraco:Macro>
+          </ul>
+      </div>
+    </div>
+
+    <h3>Other Details</h3>
+    <!--Bedrooms & Bathrooms box -->
+    <dl id="details">
+        <dt>Rooms: </dt>
+        <dd><umbraco:Item field="bedrooms" runat="server" /></dd>
+ 
+        <dt>Bathrooms: </dt>
+        <dd><umbraco:Item field="bathrooms" runat="server"/></dd> 
+    </dl>
+    <!-- Other Details -->
+    <umbraco:Item field="otherDetails" runat="server"/>
+
+    <h3>Map</h3>
+    <!-- Google Maps API Map-->  
+    <div id="estateMap"></div>    
+
+</asp:Content>
+
+<asp:Content ContentPlaceHolderId="scripts" runat="server">
+    <!-- Google Maps API -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+        //Only when the DOM is ready can we load the Map in...
+        $(document).ready(function () {
+            //As our property address stores the value as CSV as lat,lon,zoom we can just pass it to our function loadGoogleMap
+            loadGoogleMap(
+                <umbraco:Item field="address" runat="server"/>
+            );
+        });
+    </script>
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Home</Name>
+      <Alias>Home</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="pageContent" runat="server">
+    <h2>Featured Estates</h2>
+    
+    <!-- Photo Carousel using Flex Slider -->
+    <div class="flexslider-container">
+      <div class="flexslider">
+          <ul class="slides">
+                <umbraco:Macro runat="server" Language="cshtml">
+                    <!-- Select all Estate nodes by searching down the content tree from the homepage where the property feature is true -->
+                    @{ var featuredEstates = Model.DescendantsOrSelf("Estate").Where("feature == true"); }                    
+                    @foreach (var page in featuredEstates) {
+                    
+                        //Select the first child node (EstateImage) of the Estate node
+                        var firstImage = page.Children.First();
+                        
+                        <li>
+                            <a href="@page.Url">
+                                <img src="@firstImage.Image" alt="@firstImage.Name" />
+                                <p class="flex-caption">@page.Name - @string.Format("{0:c}", page.price)</p>
+                            </a>
+                        </li>
+                    }
+                </umbraco:Macro>
+          </ul>
+      </div>
+    </div>
+
+    <h2>Locations</h2>
+    <div id="grid" class="locations group">
+        <umbraco:Macro runat="server" Language="cshtml">
+            <!-- Select the first node that is the documentType Locations -->
+            @{ var locationsNode = Model.DescendantsOrSelf("Locations").First(); }
+
+            @foreach (var page in @locationsNode.Children) {
+                //Get the first EstatePhoto node underneath the LocationArea node
+                var imageNode = @page.DescendantsOrSelf("EstatePhoto").First();
+                var imageURL = imageNode.image;
+                    
+                //Get the number of properties
+                var numberOfProperties = page.Children.Count();
+
+                <article>
+                    <a href="@page.Url">
+                        <!-- Use ImageGen querystring to automatically generate a thumbnail & setup fallback image -->
+                        <img src="/ImageGen.ashx?image=@imageURL&height=173&width=173&crop=resize&align=center&altImage=/img/no-image.png" alt="@page.Name (@numberOfProperties)"/>
+                        <div>
+                            <h4>@page.Name (@numberOfProperties)</h4>
+                        </div>                            
+                    </a>
+                </article>
+            }
+        </umbraco:Macro>
+    </div>
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Location Area</Name>
+      <Alias>LocationArea</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="pageContent" runat="server">
+  <h2><umbraco:Item field="pageName" runat="server"/></h2>
+  
+  <div id="grid" class="group">
+      <umbraco:Macro runat="server" Language="cshtml">
+            <!-- For each child page of the current page -->
+            @foreach (var page in @Model.Children) {
+
+                //Get the first EstatePhoto node underneath the Estate node (page) in the loop
+                var imageNode = @page.Children.First();
+                var imageURL = imageNode.image;
+                    
+                <article>
+                    <a href="@page.Url">
+                        <!-- Use ImageGen querystring to automatically generate a thumbnail & setup fallback image -->
+                        <img src="/ImageGen.ashx?image=@imageURL&height=173&width=173&crop=resize&align=center&altImage=/img/no-image.png" alt="@page.Name - @string.Format("{0:c}",page.price)"/>
+                        <div>
+                            <h4>
+                                <!-- Display page name & format the price to £150,000.00 -->
+                                @page.Name<br />
+                                @string.Format("{0:c}",page.price)
+                            </h4>
+                        </div>                            
+                    </a>
+                </article>
+            }
+        </umbraco:Macro>
+    </div>
+</asp:content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Locations</Name>
+      <Alias>Locations</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="pageContent" runat="server">
+    <h2><umbraco:item field="pageName" runat="server" /></h2>
+
+    <div id="grid" class="locations group">
+        <umbraco:Macro runat="server" Language="cshtml">
+            <!-- For each child page of the current page -->
+            @foreach (var page in @Model.Children) {
+                //Get the first EstatePhoto node under the current page in the loop
+                var imageNode = @page.DescendantsOrSelf("EstatePhoto").First();
+                var imageURL = imageNode.image;
+                    
+                //Get the number of estates
+                var numberOfEstates = page.Children.Count();
+
+                <article>
+                    <a href="@page.Url">
+                        <!-- Use ImageGen querystring to automatically generate a thumbnail & setup fallback image -->
+                        <img src="/ImageGen.ashx?image=@imageURL&height=173&width=173&crop=resize&align=center&altImage=/img/no-image.png" alt="@page.Name (@numberOfEstates)"/>
+                        <div>
+                            <h4>@page.Name (@numberOfEstates)</h4>
+                        </div>                            
+                    </a>
+                </article>
+            }
+        </umbraco:Macro>
+    </div>
+</asp:content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Master</Name>
+      <Alias>Master</Alias>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+<!doctype html>
+    <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+    <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+    <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title><umbraco:Item Field="pageTitle" recursive="true" runat="server" /></title>
+        <meta name="description" content="<umbraco:Item Field="metaDescription" recursive="true" runat="server" />">
+        <meta name="keywords" content="<umbraco:Item Field="metaKeywords" recursive="true" runat="server" />">
+        
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link href="http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic" rel="stylesheet">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/styles.css">
+
+        <!-- jQuery UI Slider CSS -->
+        <link rel="stylesheet" href="/css/custom-umbraco-theme/jquery-ui-1.8.16.custom.css">
+
+        <!-- Flex Slider -->
+        <link rel="stylesheet" href="/css/flexslider-1.4.css">
+
+        <!-- Modernizr -->
+        <script src="/scripts/libs/modernizr-2.0.6.min.js"></script>
+    </head>
+    <body>
+
+    <div id="container">
+      <header>
+            <h1><a href="/"><umbraco:Item field="estateAgentName" recursive="true" runat="server"/></a></h1>
+            <h2><umbraco:Item field="telephoneNumber" recursive="true" runat="server"/></h2>
+      </header>      
+      <div id="main" role="main" class="group">
+        <aside>
+            <nav>
+                <umbraco:Macro runat="server" Language="cshtml">
+                    <ul>
+                        @{ var homeNode = Model.AncestorOrSelf("Home"); }
+                        <li><a href="@homeNode.Url" class="@Library.If(homeNode.Id == Model.Id, "selected", "")">@homeNode.Name</a></li>
+                        
+                        @foreach (var page in homeNode.Children.Where("Visible"))
+                        {
+                            <li>
+                                <a href="@page.Url" class="@Library.If(page.Id == Model.Id, "selected", "")">@page.Name</a>
+                            
+                                <!-- If the page has child nodes (2nd level) -->
+                                @if (page.Children.Where("Visible").Count() > 0)
+                                {
+                                    <ul>
+                                        @foreach (var childPage in page.Children.Where("Visible"))
+                                        {
+                                            var isSelected = false;
+
+                                            if (Model.Id == childPage.Id || (Model.Parent != null && Model.Parent.Id == childPage.Id)) {
+                                                isSelected = true;
+                                            }
+
+                                            <li><a href="@childPage.Url" class="@Library.If(isSelected, "selected", "")">@childPage.Name</a></li>    
+                                        }
+                                    </ul>
+                                }
+                            </li>   
+                        }
+                    </ul>
+                </umbraco:Macro>
+            </nav>            
+            
+            <form id="search" action="/search" method="post">
+                <h3>Search</h3>
+
+                <label for="location">Location</label>
+                <select id="location" name="location">
+                    <option value="-1">Any</option>
+                    <umbraco:Macro runat="server" Language="cshtml">
+                        @{
+                            //Select the homepage node & then find the child locations node
+                            var homeNode = Model.AncestorOrSelf("Home");
+                            var locationsNode = homeNode.DescendantsOrSelf("Locations").First();
+                            
+                            //For each child pages of the locations node
+                            foreach (var page in locationsNode.Children)
+                            {
+                                <option value="@page.Id">@page.Name</option>
+                            }
+                        }
+                    </umbraco:Macro>
+                </select>
+
+                <label for="price">Price</label>
+                <div id="priceSlider" class="slider"></div>
+                <input type="text" placeholder="£100,000" id="price" name="price" />
+
+                <label for="noRooms">Minimum Bedrooms</label>
+                <div id="roomSlider" class="slider"></div>
+                <input type="number" min="1" max="10" id="noRooms" name="noRooms" />
+
+                <label for="noBathrooms">Minimum Bathrooms</label>
+                <div id="bathroomSlider" class="slider"></div>
+                <input type="number" min="1" max="10" id="noBathrooms" name="noBathrooms" />
+
+                <input type="submit" value="Search" />
+            </form>
+        </aside>
+        <article id="pageContent">
+            <!-- Child Templates will insert markup here -->
+            <asp:ContentPlaceHolder Id="pageContent" runat="server"/>
+        </article>        
+      </div>
+      <footer>
+            <p>A simple demo of <a href="http://umbraco.com/" target="_blank">Umbraco<img src="/img/umbraco-logo.png" alt="Umbraco CMS Logo"/></a> for .NET Magazine</p>
+      </footer>
+    </div><!--! end of #container -->
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/scripts/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+    <!-- Child templates can insert JS here if required -->
+    <asp:ContentPlaceHolder Id="scripts" runat="server"/>
+
+    <!-- Our JS Files -->
+    <script src="/scripts/libs/jquery-ui-1.8.16.custom.slider.min.js"></script>
+    <script src="/scripts/libs/jquery.flexslider-min-1.4.js"></script>
+    <script src="/scripts/site.js"></script>
+
+
+   
+
+    <!-- Google Analytics -->
+    <script>
+        var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+        (function (d, t) {
+            var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.async = 1;
+            g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g, s)
+        } (document, 'script'));
+    </script>
+    </body>
+</html>
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Search</Name>
+      <Alias>Search</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="pageContent" runat="server">
+    <h2>Search Results</h2>
+
+    <umbraco:Macro  runat="server" language="cshtml">
+        @{
+            //Get the values posted from the form
+            var locationID  = Request.Form["location"];
+            var price       = Request.Form["price"];
+            var noRooms     = Request.Form["noRooms"];
+            var noBathrooms = Request.Form["noBathrooms"];
+
+            //Check if locationID is null from the posted form data...
+            if(locationID == null)  
+            {
+                //If it is null then the form was not posted and the page was visited directly
+                <p>Please use the search to find properties.</p>
+
+                //Stop all other code running in this Macro
+                return;
+            }
+
+            //Replace £ and spaces
+            price = price.Replace("£","");
+            price = price.Replace(" ","");
+
+            //Split the min & max value on the - character
+            var prices = price.Split('-');
+
+            //Retrieve the min & max values from the split & convert them to interger numbers
+            var minPrice = Convert.ToInt32(prices[0]);
+            var maxPrice = Convert.ToInt32(prices[1]);
+
+            //Define the search query (replace the placeholders with our values)
+            var searchQuery = string.Format("price >= {0} && price <= {1} && bedrooms >= {2} && bathrooms >= {3}", minPrice, maxPrice, noRooms, noBathrooms);
+            
+            //Setup variables for us to use
+            var location = String.Empty;
+            dynamic estatesToSearch;
+
+
+            //If the locationID is -1 (any) then...
+            if(locationID == "-1")
+            {
+                //Set the location name to any
+                location = "any";
+
+                //Search for all estates using our searchQuery
+                estatesToSearch = Model.AncestorOrSelf("Home").Descendants("Estate").Where(searchQuery);
+            }
+            else
+            {
+                //Get the name of the location from the nodeID
+                location = Library.NodeById(locationID).Name;
+
+                //Search for estates under a specific location Node
+                estatesToSearch = Library.NodeById(locationID).Descendants("Estate").Where(searchQuery);
+            }            
+        }
+               
+        <p>
+            You searched for estates in @location area, with a minimum of @noRooms bedrooms and @noBathrooms bathrooms, <br/>
+            with a price range between @string.Format("{0:c}",minPrice) and @string.Format("{0:c}",maxPrice).
+        </p>
+
+        <!-- Estates -->
+        <div id="grid" class="group">
+            @if(estatesToSearch.Count() == 0)
+            {
+                <p>We found no estates for your search. Try widening your search.</p>
+            }
+
+            @foreach(var estate in estatesToSearch)
+            {
+                //Get the first image of the estate available
+                var imageNode = @estate.Children.First();
+                var imageURL = imageNode.image;
+
+                <article>
+                    <a href="@estate.Url">
+                        <img src="/ImageGen.ashx?image=@imageURL&height=173&width=173&crop=resize&align=center&altImage=/img/no-image.png" alt="@estate.Name - @string.Format("{0:c}",estate.price)"/>
+                        <div>
+                            <h4>
+                                @estate.Name<br />
+                                @string.Format("{0:c}",estate.price)
+                            </h4>
+                        </div>                            
+                    </a>
+                </article>                
+            }
+        </div>
+    </umbraco:Macro>
+</asp:content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Search Estates  (Called by template alias from JS only)</Name>
+      <Alias>SearchEstates</Alias>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+    <umbraco:Macro Language="cshtml" runat="server">
+        @{
+            //Get the ?nodeID= value from the querystring
+            var nodeId = Request.QueryString["nodeId"];
+
+            //If nodeID is doesn't exist then...
+            if (nodeId == null) {
+                //Use our helper PropertySearch by passing in all Estate nodes under the Home node
+                @EstateSearch(Model.AncestorOrSelf("Home").Descendants("Estate"))
+            }
+            else {
+                //Get the loacationArea from the nodeID querystring variable
+                var locationArea = @Library.NodeById(nodeId);
+
+                //Use our helper PropetySearch by passing in the property children under the LocationArea
+                @EstateSearch(locationArea.Children)
+            }
+        }      
+    
+        
+        @helper EstateSearch(dynamic estates) 
+        {
+            //This is our helper to generate our JSON for our JS script
+
+            //Setup variables to store our values
+            var prices      = new List<int>();
+            var bedrooms    = new List<int>();
+            var bathrooms   = new List<int>();
+
+            //For each Estate in Estates
+            foreach (var estate in estates)
+            {
+                prices.Add(estate.Price);
+                bedrooms.Add(estate.Bedrooms);
+                bathrooms.Add(estate.Bathrooms);
+            }
+
+            //Build up our JSON string...
+            var result = "{ ";
+                result += "\"minPrice\": " + prices.Min() + ", ";
+                result += "\"maxPrice\": " + prices.Max() + ", ";
+
+                result += "\"minBedrooms\": " + bedrooms.Min() + ", ";
+                result += "\"maxBedrooms\": " + bedrooms.Max() + ", ";
+
+                result += "\"minBathrooms\": " + bathrooms.Min() + ", ";
+                result += "\"maxBathrooms\": " + bathrooms.Max();
+            result +=  " }";
+
+            //Output the JSON string to the page
+            @Html.Raw(result)
+        }
+    </umbraco:Macro>
+</asp:Content>]]></Design>
+    </Template>
+    <Template>
+      <Name>Textpage</Name>
+      <Alias>Textpage</Alias>
+      <Master>Master</Master>
+      <Design><![CDATA[<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="pageContent" runat="server">
+  <h1><umbraco:item field="pageName" runat="server" /></h1>
+  <umbraco:item field="bodyText" runat="server" />
+</asp:Content>]]></Design>
+    </Template>
+  </Templates>
+  <Stylesheets>
+    <Stylesheet>
+      <Name>flexslider-1.4</Name>
+      <FileName>flexslider-1.4</FileName>
+      <Content><![CDATA[/*
+ * jQuery FlexSlider v1.4
+ * http://flex.madebymufffin.com
+ *
+ * Copyright 2011, Tyler Smith
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {width: 100%; margin: 0; padding: 0;}
+.flexslider .slides li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block;}
+
+/* Browser Resets */
+.flexslider a {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;}
+.flexslider .slides  li {position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flexslider-container { position:relative; }
+
+/* Caption style */
+.flex-caption {width: 96%; padding: 2%; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 14px; line-height: 18px;}
+
+/* Direction Nav */
+.flex-direction-nav li a {width: 52px; height: 52px; margin: -13px 0 0; display: block; background: url(../img/flexslider-1.4/bg_direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;} /* set negative margin-top equal to half the height on the directional-nav for perfect vertical centering */
+.flex-direction-nav li a.next {background-position: -52px 0; right: -25px;}
+.flex-direction-nav li a.prev {background-position: 0 0; left: -17px;}
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: -30px; text-align: center;}
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; /*background: url(../img/flexslider-1.4/bg_control_nav.png) no-repeat 0 0;*/ background: url(../img/flexslider-1.4/bg_control_nav-purple.png) no-repeat 0 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>Reset</Name>
+      <FileName>Reset</FileName>
+      <Content><![CDATA[/* -- Yahoo Reset CSS - 2.9.0 -- */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>Styles</Name>
+      <FileName>Styles</FileName>
+      <Content><![CDATA[/* -- Fonts -- */
+body { font-family:Georgia, Arial, Serif; }
+h1, h2, h3, h4, h5, h6 { color:#554D40; font-family:'Arvo', Arial, serif; font-weight:400; text-shadow:0 1px 0 rgba(255, 255, 255, 0.9); }
+h1 { font-size:40px; }
+h2 { font-size:30px; }
+h3 { font-size:25px; }
+h4 { font-size:20px; }
+h5 { font-size:18px; }
+h6 { font-size:16px; }
+p { font-size:16px; }
+
+/* -- Selection -- */
+::-moz-selection { background:#fe57a1; color:#fff; text-shadow:none; }
+::selection { background:#fe57a1; color:#fff; text-shadow:none; }
+
+/* -- Clearfix aka Group --*/
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */ 
+.group:before, .group:after { content:""; display:table; }
+.group:after { clear:both; }
+.group { zoom:1; }
+
+/* -- Layout -- */
+html { font-size:100%; -webkit-text-size-adjust 100%; -ms-text-size-adjust:100%; overflow-y:scroll; }
+#container { margin:20px auto; padding:0 0 25px 0; width:960px; }
+#main > aside { float:left; padding:20px; width:175px; /*215-20-20=175*/ }
+#pageContent { float:right; padding:0 20px; width:690px; /*740-20-20=690*/ }
+
+/* -- Page Background Colours & Design -- */
+body  
+{  
+    /* PURPLE */
+    background-color:#320d1c;    
+    background-image:-moz-linear-gradient(rgba(173,62,108,0.8), transparent), url(../img/bg-pattern.png);
+    background-image:-ms-linear-gradient(rgba(173,62,108,0.8), transparent), url(../img/bg-pattern.png);
+    background-image:-o-linear-gradient(rgba(173,62,108,0.8), transparent), url(../img/bg-pattern.png);
+    background-image:-webkit-gradient(linear, 0 0, 0 100%, from(rgba(173,62,108,0.8)), to(transparent)), url(../img/bg-pattern.png);
+    background-image:-webkit-linear-gradient(rgba(173,62,108,0.8), transparent), url(../img/bg-pattern.png);
+    background-image:linear-gradient(rgba(173,62,108,0.8), transparent), url(../img/bg-pattern.png);    
+    background-repeat:repeat-x, repeat;    
+    background-attachment:fixed;
+}
+#container { background:#f6eddf url(../img/bg-texture.png) repeat 0 0; box-shadow:rgba(0,0,0,0.8) 0 0 10px; }
+
+
+/* -- Header -- */
+header { background:#ad3f6d; margin:0 0 60px 0; padding:10px 20px; position:relative; text-align:right; }
+header h1, header h2 { color:#320d1c; text-shadow:0 1px 0 #E75C96; }
+header h1 a { color:#320d1c; text-decoration:none; }
+header:before { background:#330d1d; border-radius:60px; -moz-box-shadow:0 1px 5px rgba(0,0,0,0.6); -ms-box-shadow:0 1px 5px rgba(0,0,0,0.6); -o-box-shadow::0 1px 5px rgba(0,0,0,0.6); -webkit-box-shadow:0 1px 5px rgba(0,0,0,0.6); box-shadow:0 1px 5px rgba(0,0,0,0.6); color:#95335c; content:"Built with Umbraco"; display:block; font-family:'Arvo',Arial,serif; font-weight:700; height:80px; /*120 - 40=80*/ left:-60px; padding:40px 0 0 0; position:absolute; top:20px; text-align:center; text-shadow:0 1px 0 #76465a; text-transform:uppercase; -moz-transform:rotate(-15deg); -ms-transform:rotate(-15deg); -o-tranform:rotate(-15deg); -webkit-transform:rotate(-15deg); transform:rotate(-15deg); -moz-transition:all 0.2s; -ms-transition:all 0.2s; -o-transition:all 0.2s; -webkit-transition:all 0.2s; transition:all 0.2s; width:120px; z-index:5; }
+header:hover:before { -moz-transform:rotate(-5deg); -ms-transform:rotate(-5deg); -o-transform:rotate(-5deg); -webkit-transform:rotate(-5deg); transform:rotate(-5deg); }
+header:after { background:url(../img/rounded-top.png) repeat-x bottom left; bottom:-10px; content:""; display:block; height:10px; margin:0 -20px; position:absolute; width:960px; }
+
+/* -- aside -- */
+aside { background:#ca618d; margin:0 0 50px -20px; position:relative; }
+aside:after { border-width:20px; border-color:transparent #8B234F transparent transparent; border-style:solid; bottom:-20px; content:""; display:block; left:-20px; position:absolute; z-index:-1; }
+aside h3 { color:#320d1c; text-shadow:0 1px 0 #E75C96; }
+
+/* -- Navi -- */
+nav { margin:0 -20px 20px -20px; }
+nav a { color:#fff; display:block; height:26px; line-height:26px; margin:0 0 0 -10px; padding:0 0 0 30px; text-decoration:none; }
+nav a.selected { background-color:#ad3f6d; position:relative; }
+nav a.selected:before { border-width:10px; border-color:transparent #8B234F transparent transparent; border-style:solid; bottom:-10px; content:""; display:block; left:-10px; position:absolute; z-index:-1; }
+nav a.selected:after { border-width:13px; border-color:transparent transparent transparent #ad3f6d; border-style:solid; bottom:0; content:""; display:block; position:absolute; right:-26px; }
+nav ul > li > ul a { padding: 0 0 0 45px; }
+
+/* -- Search -- */
+#search {}
+#search label { display:block; margin:10px 0 0 0; }
+#search span { display:block; margin:0 0 5px 0; }
+#search select,
+#search input:not([type='submit']) { border:1px solid rgba(0,0,0,0.0.15); }
+#search input[type='submit'] { background:#ad3f6d; border:1px solid #86254d; -moz-border-radius:15px; -ms-border-radius:15px; -o-border-radius:15px; -webkit-border-radius:15px; border-radius:15px; -moz-box-shadow:rgba(0,0,0,0.4) 0 0 1px; color:##320D1C; font-family:'Arvo', Arial, serif; font-size:20px; height:30px; margin:20px 0 0 0; padding:0 10px; text-shadow:0 1px 0 #E75C96; }
+#search input[type='submit']:hover,
+#search input[type='submit']:active { background:#832c50; border:1px solid #330D1D; position:relative; top:1px; }
+#search input[type='submit']:focus {}
+#search .slider { font-size:12px; }
+
+/* -- Footer -- */
+footer { background:#ad3f6d; color:#320d1c;  height:50px; margin:20px 0 0 -15px; padding:0; position:relative; text-align:center; }
+footer p { line-height:50px; }
+footer a { color:#320d1c; }
+footer a[href*='umbraco.com'] { position:relative; }
+footer a[href*='umbraco.com'] > img { left:-170px; opacity:0.2; position:absolute; top:-10px; -moz-transition:opacity 0.3s; -ms-transition:opacity 0.3s; -o-transition:opacity 0.3s; -webkit-transition:opacity 0.3s; transition:opacity 0.3s;  }
+footer a[href*='umbraco.com']:hover > img { opacity:0.4; }
+footer:before { border-width:20px; border-color:transparent #8B234F transparent transparent; border-style:solid; bottom:-20px; content:""; display:block; left:-20px; position:absolute; z-index:-1; }
+footer:after { border-width:25px; border-color:#ad3f6d transparent #ad3f6d #ad3f6d; border-style:solid; bottom:0; content:""; display:block; position:absolute; right:-50px; }
+
+/* -- Main Page Content -- */
+#pageContent { font-size:16px; }
+#pageContent h1,
+#pageContent h2,
+#pageContent h3,
+#pageContent h4,
+#pageContent h5,
+#pageContent h6 { margin:10px 0; }
+#pageContent p { margin:5px 0 10px 0;}
+#pageContent em { font-style:italic; }
+#pageContent strong { font-weight:bold; }
+#pageContent ul { list-style-type:disc; margin:5px 0 10px 35px; }
+#pageContent ul > li > ul { list-style-type:circle; margin:0 0 0 30px; }
+#pageContent ol { list-style-type:decimal; margin:5px 0 10px 35px; }
+#pageContent a { color:#AD3F6D; color:rgba(173,63,109,1); -moz-transition:color 0.5s; -ms-transition:color 0.5s; -o-transition:color 0.5s; -webkit-transition:color 0.5s; transition:color 0.5s; }
+#pageContent a:hover { color:#AD3F6D; color:rgba(173,63,109,0.7); }
+
+#details { background:rgba(0,0,0,0.4); -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; float:right; margin:0 0 20px 20px; width:200px; }
+#details dt { font-weight:bold; float:left; padding:5px; }
+#details dd { padding:5px; }
+
+
+/* -- Grid --*/
+#grid {}
+#grid article
+{
+    border:1px solid rgba(0,0,0,0.12);
+    float:left;
+    height:173px; /*175 - 1-1 = 173 */
+    margin:5px;
+    padding:0;
+    position:relative;
+    width:173px; /*175 - 1-1 = 173 */
+} 
+
+#grid article a { display:block; height:173px; overflow:hidden; position:relative; text-decoration:none; }
+#grid article img { position:absolute; }
+#grid article div { background:rgba(173,63,109,0.6); bottom:-173px; height:163px; padding:5px; position:absolute; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; -webkit-transition:all 0.5s; transition:all 0.5s; width:173px; }
+#grid article a:hover div { bottom:0; }
+#grid article sdivpan h4 { color:#320D1C; }
+
+#grid.locations div { height: 50px; }
+
+/* -- Slider Overwrites & Styles -- */
+#pageContent ul.slides,
+#pageContent ul.flex-direction-nav,
+#pageContent ol.flex-control-nav { list-style-type:none; margin:0; }
+.flexslider-container { margin:0 auto 30px auto; width:96%; }
+.flexslider a { text-decoration:none; }
+
+
+/* -- Property Map -- */
+#estateMap { height:390px; width:690px; }
+
+
+/* =========== MEDIA QUERIES =========== */
+/*-- Netbook  --*/
+@media screen and (max-width:1100px)
+{
+    /* Adjust width of main container & content */    
+    #container { width:780px; }
+    header:after { width:780px; }
+    #pageContent { width:520px; /*560-20-20=520*/ }
+    #estateMap { width:520px; }
+}
+
+
+/*-- Mobile  --*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+       screen and (min-device-pixel-ratio : 1.5),
+       screen and (max-width: 480px)
+{
+        
+    /* Adjust Font Sizes */
+    h1 { font-size:25px; }
+    h2 { font-size:20px; }
+    h3 { font-size:18px; }
+    h4 { font-size:16px; }
+    h5 { font-size:14px; }
+    h6 { font-size:12px; }
+    p { font-size:14px; }
+    
+    /* Adjust the header */ 
+    header { margin:0; }  
+    header:before { left:0; }
+    header:after { bottom:-9px; z-index:2; width:480px; }
+    
+    /* Adjust the navi */
+    #main > aside { float:none; margin:0; padding:0; width:auto; }
+    nav { margin:0; padding:30px 0 0 0; }
+    nav li { font-size:26px; }
+    nav a { margin:0; padding:5px 0 5px 30px; }
+    nav li > ul { display:none; }
+    nav a.selected:before,
+    nav a.selected:after { display:none; }
+        
+    /* Hide Search for now */
+    #search { display:none; }
+    
+    /*Adjust Footer */
+    footer:before,
+    footer:after { display:none; }
+    footer { margin-left:0; }
+    
+    /* Adjust width of main container & content */    
+    #container { margin-bottom:0; margin-top:0; width:480px; }
+    
+    #pageContent { width:440px; /*480-20-20=440*/ }
+    #estateMap { width:440px; }
+}
+
+
+
+
+
+
+]]></Content>
+      <Properties>
+        <Property>
+          <Name>Header 1</Name>
+          <Alias>h1</Alias>
+          <Value> color:#554D40; font-family:'Arvo', Arial, serif; font-size:40px !important; font-weight:400; text-shadow:0 1px 0 rgba(255, 255, 255, 0.9); </Value>
+        </Property>
+        <Property>
+          <Name>Header 2</Name>
+          <Alias>h2</Alias>
+          <Value> color:#554D40; font-family:'Arvo', Arial, serif; font-size:30px !important; font-weight:400; text-shadow:0 1px 0 rgba(255, 255, 255, 0.9); </Value>
+        </Property>
+        <Property>
+          <Name>Header 3</Name>
+          <Alias>h3</Alias>
+          <Value> color:#554D40; font-family:'Arvo', Arial, serif; font-size:25px !important; font-weight:400; text-shadow:0 1px 0 rgba(255, 255, 255, 0.9); </Value>
+        </Property>
+      </Properties>
+    </Stylesheet>
+  </Stylesheets>
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes>
+    <DataType Name="Maps" Id="1b64eae2-f9a1-4276-a071-f25dde6913dd" Definition="f2dc91b9-b511-450d-9631-eb0e9f49f48d">
+      <PreValues>
+        <PreValue Id="9" Value="53.430785,-2.960515" />
+        <PreValue Id="10" Value="12" />
+        <PreValue Id="11" Value="375" />
+        <PreValue Id="12" Value="459" />
+      </PreValues>
+    </DataType>
+  </DataTypes>
+  <control>/usercontrols/RazorEstateAgent/CheckDependencies.ascx</control>
+  <Actions>
+    <Action runat="install" alias="publishRootDocument" documentName="Home" />
+  </Actions>
+</umbPackage>

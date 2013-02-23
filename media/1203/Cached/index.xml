@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>westminsterabbey-detail.jpg</originalFileName>
+    <size>133328</size>
+    <dateLastModified>Thu, 15 Dec 2011 15:17:07 GMT</dateLastModified>
+    <width>670</width>
+    <height>390</height>
+    <cachedImage>
+      <fileName>fygvkt3b.jpeg</fileName>
+      <dateCreated>Thu, 15 Dec 2011 15:17:20 GMT</dateCreated>
+      <dateLastAccessed>Fri, 16 Dec 2011 15:40:31 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <rotate>0</rotate>
+      <flip />
+      <colorMode />
+      <crop>resize</crop>
+      <width>173</width>
+      <height>173</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

@@ -1,0 +1,14 @@
+﻿<!-- Select all Estate nodes by searching down the content tree from the homepage where the property feature is true -->
+                    @{ var featuredEstates = Model.DescendantsOrSelf("Estate").Where("feature == true"); }                    
+                    @foreach (var page in featuredEstates) {
+                    
+                        //Select the first child node (EstateImage) of the Estate node
+                        var firstImage = page.Children.First();
+                        
+                        <li>
+                            <a href="@page.Url">
+                                <img src="@firstImage.Image" alt="@firstImage.Name" />
+                                <p class="flex-caption">@page.Name - @string.Format("{0:c}", page.price)</p>
+                            </a>
+                        </li>
+                    }

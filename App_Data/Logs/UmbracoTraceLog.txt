@@ -1,0 +1,681 @@
+2013-02-23 13:32:02,532 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-02-23 13:32:02,791 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-02-23 13:32:02,798 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2013-02-23 13:32:05,766 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 2961ms)
+2013-02-23 13:32:05,770 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 1ms)
+2013-02-23 13:32:05,771 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 1ms)
+2013-02-23 13:32:05,773 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IPackageAction, found 14 (took 1ms)
+2013-02-23 13:32:05,774 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 1ms)
+2013-02-23 13:32:05,775 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2013-02-23 13:32:05,778 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-02-23 13:32:06,801 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2013-02-23 13:32:06,802 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-02-23 13:32:06,909 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 11 (took 3ms)
+2013-02-23 13:32:07,160 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 10ms)
+2013-02-23 13:32:07,191 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-02-23 13:32:07,243 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 4708ms)
+2013-02-23 13:32:08,189 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2013-02-23 13:32:08,819 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-02-23 14:41:59,928 [7] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-02-23 14:41:59,930 [7] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2013-02-23 14:42:00,001 [7] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2013-02-23 14:43:53,348 [7] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 1 (took 5ms)
+2013-02-23 14:46:08,116 [7] WARN  umbraco.macro - [Thread 28] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 14:46:10,985 [7] WARN  umbraco.macro - [Thread 39] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:09:49,757 [7] WARN  umbraco.macro - [Thread 45] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:09:50,315 [7] WARN  umbraco.macro - [Thread 31] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:10:05,894 [7] WARN  umbraco.macro - [Thread 46] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:10:06,179 [7] WARN  umbraco.macro - [Thread 42] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:10:08,880 [7] WARN  umbraco.macro - [Thread 49] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:10:11,091 [7] WARN  umbraco.macro - [Thread 42] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:10:11,326 [7] WARN  umbraco.macro - [Thread 49] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:10:13,505 [7] WARN  umbraco.macro - [Thread 72] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:10:13,701 [7] WARN  umbraco.macro - [Thread 76] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:33:30,368 [7] WARN  umbraco.macro - [Thread 13] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:33:30,996 [7] WARN  umbraco.macro - [Thread 13] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:34:35,490 [7] WARN  umbraco.macro - [Thread 16] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:34:35,920 [7] WARN  umbraco.macro - [Thread 78] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:35:32,346 [7] WARN  umbraco.macro - [Thread 8] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:35:32,820 [7] WARN  umbraco.macro - [Thread 73] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:36:15,497 [7] WARN  umbraco.macro - [Thread 78] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:36:16,012 [7] WARN  umbraco.macro - [Thread 73] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:38:08,559 [7] WARN  umbraco.macro - [Thread 73] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:38:09,004 [7] WARN  umbraco.macro - [Thread 16] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:39:52,561 [7] WARN  umbraco.macro - [Thread 16] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:39:53,001 [7] WARN  umbraco.macro - [Thread 73] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:40:47,401 [7] WARN  umbraco.macro - [Thread 6] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:40:47,898 [7] WARN  umbraco.macro - [Thread 31] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:42:06,450 [7] WARN  umbraco.macro - [Thread 9] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:42:06,852 [7] WARN  umbraco.macro - [Thread 6] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:43:01,176 [7] WARN  umbraco.macro - [Thread 16] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:43:01,635 [7] WARN  umbraco.macro - [Thread 16] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:43:23,678 [7] WARN  umbraco.macro - [Thread 76] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:43:24,069 [7] WARN  umbraco.macro - [Thread 6] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:44:14,911 [7] WARN  umbraco.macro - [Thread 76] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:44:15,380 [7] WARN  umbraco.macro - [Thread 9] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:45:02,818 [7] WARN  umbraco.macro - [Thread 9] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:45:03,246 [7] WARN  umbraco.macro - [Thread 6] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:45:32,189 [7] WARN  umbraco.macro - [Thread 45] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:45:32,659 [7] WARN  umbraco.macro - [Thread 45] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:46:05,314 [7] WARN  umbraco.macro - [Thread 12] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:46:05,803 [7] WARN  umbraco.macro - [Thread 72] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:46:17,120 [7] WARN  umbraco.macro - [Thread 12] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:46:17,642 [7] WARN  umbraco.macro - [Thread 12] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:46:59,019 [7] WARN  umbraco.macro - [Thread 42] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:46:59,552 [7] WARN  umbraco.macro - [Thread 55] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:47:23,921 [7] WARN  umbraco.macro - [Thread 72] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:47:24,391 [7] WARN  umbraco.macro - [Thread 55] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:47:47,144 [7] WARN  umbraco.macro - [Thread 6] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:47:47,652 [7] WARN  umbraco.macro - [Thread 55] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:51:07,162 [7] WARN  umbraco.macro - [Thread 55] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:51:07,805 [7] WARN  umbraco.macro - [Thread 15] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:51:55,163 [7] WARN  umbraco.macro - [Thread 15] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:51:55,631 [7] WARN  umbraco.macro - [Thread 37] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:52:14,635 [7] WARN  umbraco.macro - [Thread 50] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:52:15,128 [7] WARN  umbraco.macro - [Thread 38] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:52:24,883 [7] WARN  umbraco.macro - [Thread 27] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:52:25,333 [7] WARN  umbraco.macro - [Thread 52] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:53:47,783 [7] WARN  umbraco.macro - [Thread 75] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:53:48,202 [7] WARN  umbraco.macro - [Thread 52] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:54:06,611 [7] WARN  umbraco.macro - [Thread 20] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:54:07,123 [7] WARN  umbraco.macro - [Thread 39] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:55:34,070 [7] WARN  umbraco.macro - [Thread 38] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:55:34,456 [7] WARN  umbraco.macro - [Thread 38] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:55:37,430 [7] WARN  umbraco.macro - [Thread 52] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:55:37,702 [7] WARN  umbraco.macro - [Thread 38] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:55:54,472 [7] WARN  umbraco.macro - [Thread 22] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:55:54,798 [7] WARN  umbraco.macro - [Thread 6] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:56:24,218 [7] WARN  umbraco.macro - [Thread 52] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:56:24,539 [7] WARN  umbraco.macro - [Thread 22] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:56:50,946 [7] WARN  umbraco.macro - [Thread 68] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:57:17,563 [7] WARN  umbraco.macro - [Thread 6] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:57:18,786 [7] WARN  umbraco.macro - [Thread 20] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 15:57:19,603 [7] WARN  umbraco.macro - [Thread 66] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:03:55,020 [7] WARN  umbraco.macro - [Thread 6] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:05:53,869 [7] INFO  Umbraco.Core.PluginManager - [Thread 74] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 0ms)
+2013-02-23 16:05:53,870 [7] INFO  Umbraco.Core.PluginManager - [Thread 74] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 0ms)
+2013-02-23 16:05:57,626 [7] WARN  umbraco.macro - [Thread 57] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:06:05,811 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2013-02-23 16:06:22,777 [7] WARN  umbraco.macro - [Thread 74] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:24:39,348 [7] WARN  umbraco.macro - [Thread 13] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:34:14,121 [7] WARN  umbraco.macro - [Thread 67] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:34:14,358 [7] WARN  umbraco.macro - [Thread 15] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:35:08,044 [7] WARN  umbraco.macro - [Thread 58] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:35:08,658 [7] WARN  umbraco.macro - [Thread 46] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:36:18,149 [7] WARN  umbraco.macro - [Thread 46] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 16:36:18,559 [7] WARN  umbraco.macro - [Thread 55] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 18:07:27,242 [7] WARN  umbraco.macro - [Thread 56] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 18:07:27,661 [7] WARN  umbraco.macro - [Thread 73] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 19:35:27,797 [7] WARN  umbraco.macro - [Thread 21] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 19:35:28,254 [7] WARN  umbraco.macro - [Thread 78] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 19:36:05,431 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-02-23 19:36:05,552 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-02-23 19:36:05,556 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 4ms)
+2013-02-23 19:36:07,877 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 2316ms)
+2013-02-23 19:36:07,880 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 1ms)
+2013-02-23 19:36:07,882 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 1ms)
+2013-02-23 19:36:07,883 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IPackageAction, found 14 (took 1ms)
+2013-02-23 19:36:07,884 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 1ms)
+2013-02-23 19:36:07,886 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2013-02-23 19:36:07,888 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-02-23 19:36:08,032 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-02-23 19:36:08,035 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-02-23 19:36:08,097 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 11 (took 2ms)
+2013-02-23 19:36:08,199 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2013-02-23 19:36:08,256 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-02-23 19:36:08,320 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 2887ms)
+2013-02-23 19:50:14,079 [7] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 2ms)
+2013-02-23 19:50:14,302 [7] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 154ms)
+2013-02-23 19:50:14,304 [7] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 0ms)
+2013-02-23 19:50:40,164 [7] INFO  Umbraco.Core.PluginManager - [Thread 18] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2013-02-23 19:50:41,122 [7] WARN  umbraco.macro - [Thread 16] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 19:50:42,434 [7] WARN  umbraco.macro - [Thread 18] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 19:50:42,663 [7] WARN  umbraco.macro - [Thread 16] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 19:50:44,674 [7] WARN  umbraco.macro - [Thread 8] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 19:51:00,771 [7] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 1 (took 14ms)
+2013-02-23 20:04:21,228 [7] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-02-23 20:04:21,641 [7] WARN  umbraco.macro - [Thread 30] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:04:26,205 [7] WARN  umbraco.macro - [Thread 33] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:04:26,528 [7] WARN  umbraco.macro - [Thread 30] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:05:56,054 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 32] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:05:56,077 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 32] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:05:56,082 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 32] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:05:56,114 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 32] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:05:56,114 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 32] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:05:56,115 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 32] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:07:12,104 [7] WARN  umbraco.macro - [Thread 5] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:07:12,556 [7] WARN  umbraco.macro - [Thread 22] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:07:18,437 [7] WARN  umbraco.macro - [Thread 22] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:07:20,438 [7] WARN  umbraco.macro - [Thread 22] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:07:21,028 [7] WARN  umbraco.macro - [Thread 22] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:07:28,212 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 23] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:07:28,214 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 23] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:07:28,217 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 23] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:07:28,250 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 23] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:07:28,250 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 23] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:07:28,250 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 23] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:08:27,174 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:08:27,176 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:08:27,179 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:08:27,200 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:08:27,201 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:08:27,201 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 21] Error executing query Select [value] from cmsDataTypeprevalues where id in ()
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ')'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:4a536624-6bb1-4b17-bd01-d489603a1390
+2013-02-23 20:09:07,006 [7] WARN  umbraco.macro - [Thread 6] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:09:12,265 [7] WARN  umbraco.macro - [Thread 21] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:09:20,682 [7] WARN  umbraco.macro - [Thread 25] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:10:48,859 [7] WARN  umbraco.macro - [Thread 22] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:10:51,962 [7] WARN  umbraco.macro - [Thread 25] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:10:54,955 [7] WARN  umbraco.macro - [Thread 22] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:11:58,229 [7] WARN  umbraco.macro - [Thread 32] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:15:03,860 [7] WARN  umbraco.macro - [Thread 9] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:15:28,376 [7] WARN  umbraco.macro - [Thread 27] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:15:42,202 [7] WARN  umbraco.macro - [Thread 24] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:18:38,673 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 8] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-02-23 20:18:38,673 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 8] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-02-23 20:18:38,673 [7] WARN  Umbraco.Web.Routing.NiceUrlProvider - [Thread 8] Couldn't find any page with nodeId=0. This is most likely caused by the page not being published.
+2013-02-23 20:18:38,685 [7] ERROR Umbraco.Web.UmbracoApplication - [Thread 8] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: attribute
+   at System.Xml.Linq.XAttribute.op_Explicit(XAttribute attribute)
+   at UmbracoExamine.UmbracoContentIndexer.ReIndexNode(XElement node, String type)
+   at Examine.ExamineManager._ReIndexNode(XElement node, String type, IEnumerable`1 providers)
+   at UmbracoExamine.UmbracoEventManager.content_AfterUpdateDocumentCache(Document sender, DocumentCacheEventArgs e)
+   at umbraco.content.DocumentCacheEventHandler.Invoke(Document sender, DocumentCacheEventArgs e)
+   at umbraco.content.FireAfterUpdateDocumentCache(Document sender, DocumentCacheEventArgs e)
+   at umbraco.content.UpdateDocumentCache(Document d)
+   at umbraco.library.UpdateDocumentCache(Document doc)
+   at umbraco.cms.presentation.editContent.Publish(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at umbraco.controls.ContentControl.savePublish(Object Sender, ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_editcontent_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-02-23 20:24:00,334 [7] WARN  umbraco.macro - [Thread 27] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:24:05,206 [7] WARN  umbraco.macro - [Thread 27] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:24:06,500 [7] WARN  umbraco.macro - [Thread 30] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:24:09,541 [7] WARN  umbraco.macro - [Thread 27] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:25:41,254 [7] WARN  umbraco.macro - [Thread 26] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:25:44,137 [7] WARN  umbraco.macro - [Thread 13] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:26:41,608 [7] WARN  umbraco.macro - [Thread 13] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:27:04,802 [7] WARN  umbraco.macro - [Thread 13] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:27:38,547 [7] WARN  umbraco.macro - [Thread 17] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:28:03,515 [7] WARN  umbraco.macro - [Thread 13] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 20:41:43,040 [7] WARN  umbraco.macro - [Thread 38] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:05:06,960 [7] WARN  umbraco.macro - [Thread 61] Error loading MacroEngine script (file: , Type: ''. Exception: System.Web.HttpCompileException (0x80004005): c:\Users\USER\Documents\My Web Sites\Umbraco CMS\App_Data\TEMP\Razor\inline-95ecc7490dd4c06a7de979aa10d0a0eb.cshtml(36): error CS0103: The name 'searchQuery' does not exist in the current context
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:05:07,206 [7] WARN  umbraco.macro - [Thread 57] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:10:27,155 [7] WARN  umbraco.macro - [Thread 52] Error loading MacroEngine script (file: , Type: ''. Exception: System.Web.HttpCompileException (0x80004005): c:\Users\USER\Documents\My Web Sites\Umbraco CMS\App_Data\TEMP\Razor\inline-95ecc7490dd4c06a7de979aa10d0a0eb.cshtml(36): error CS0103: The name 'searchQuery' does not exist in the current context
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:10:27,561 [7] WARN  umbraco.macro - [Thread 51] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:10:31,129 [7] WARN  umbraco.macro - [Thread 52] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:10:36,042 [7] WARN  umbraco.macro - [Thread 52] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:15:45,596 [7] WARN  umbraco.macro - [Thread 57] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:15:54,358 [7] WARN  umbraco.macro - [Thread 36] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:20:44,167 [7] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:20:46,642 [7] WARN  umbraco.macro - [Thread 37] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:20:48,745 [7] WARN  umbraco.macro - [Thread 39] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2013-02-23 21:46:22,905 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-02-23 21:46:22,917 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-02-23 21:46:22,921 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2013-02-23 21:46:23,016 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 5 (took 90ms)
+2013-02-23 21:46:23,019 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IDataType, found 38 (took 1ms)
+2013-02-23 21:46:23,020 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IMacroGuiRendering, found 13 (took 1ms)
+2013-02-23 21:46:23,022 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IPackageAction, found 14 (took 1ms)
+2013-02-23 21:46:23,023 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IAction, found 35 (took 1ms)
+2013-02-23 21:46:23,025 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2013-02-23 21:46:23,027 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-02-23 21:46:23,074 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2013-02-23 21:46:23,076 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-02-23 21:46:23,081 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 11 (took 1ms)
+2013-02-23 21:46:23,138 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-02-23 21:46:23,148 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 1ms)
+2013-02-23 21:46:23,169 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 261ms)
+2013-02-23 21:46:24,947 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 1ms)
+2013-02-23 21:46:25,908 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 1ms)
+2013-02-23 21:46:27,531 [7] WARN  umbraco.macro - [Thread 8] Error loading MacroEngine script (file: , Type: ''. Exception: System.InvalidOperationException: Sequence contains no elements
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)

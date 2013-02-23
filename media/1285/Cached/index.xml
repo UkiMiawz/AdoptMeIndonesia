@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>blarneycastle-tower.jpg</originalFileName>
+    <size>125575</size>
+    <dateLastModified>Mon, 04 Feb 2013 09:28:21 GMT</dateLastModified>
+    <width>670</width>
+    <height>390</height>
+    <cachedImage>
+      <fileName>v5m1ooyp.jpeg</fileName>
+      <dateCreated>Tue, 05 Feb 2013 08:06:37 GMT</dateCreated>
+      <dateLastAccessed>Sat, 23 Feb 2013 07:57:18 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <rotate>0</rotate>
+      <flip />
+      <colorMode />
+      <crop>resize</crop>
+      <width>173</width>
+      <height>173</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

@@ -1,0 +1,86 @@
+﻿@{
+            //Get the values posted from the form
+            var locationID  = Request.Form["location"];
+            var price       = Request.Form["price"];
+            var noRooms     = Request.Form["noRooms"];
+            var noBathrooms = Request.Form["noBathrooms"];
+
+            //Check if locationID is null from the posted form data...
+            if(locationID == null)  
+            {
+                //If it is null then the form was not posted and the page was visited directly
+                <p>Please use the search to find properties.</p>
+
+                //Stop all other code running in this Macro
+                return;
+            }
+
+            //Replace £ and spaces
+            price = price.Replace("£","");
+            price = price.Replace(" ","");
+
+            //Split the min & max value on the - character
+            var prices = price.Split('-');
+
+            //Retrieve the min & max values from the split & convert them to interger numbers
+            var minPrice = Convert.ToInt32(prices[0]);
+            var maxPrice = Convert.ToInt32(prices[1]);
+
+            //Define the search query (replace the placeholders with our values)
+            var searchQuery = string.Format("price >= {0} && price <= {1} && bedrooms >= {2} && bathrooms >= {3}", minPrice, maxPrice, noRooms, noBathrooms);
+            
+            //Setup variables for us to use
+            var location = String.Empty;
+            dynamic estatesToSearch;
+
+
+            //If the locationID is -1 (any) then...
+            if(locationID == "-1")
+            {
+                //Set the location name to any
+                location = "any";
+
+                //Search for all estates using our searchQuery
+                estatesToSearch = Model.AncestorOrSelf("Home").Descendants("Estate").Where(searchQuery);
+            }
+            else
+            {
+                //Get the name of the location from the nodeID
+                location = Library.NodeById(locationID).Name;
+
+                //Search for estates under a specific location Node
+                estatesToSearch = Library.NodeById(locationID).Descendants("Estate").Where(searchQuery);
+            }            
+        }
+               
+        <p>
+            You searched for estates in @location area, with a minimum of @noRooms bedrooms and @noBathrooms bathrooms, <br/>
+            with a price range between @string.Format("{0:c}",minPrice) and @string.Format("{0:c}",maxPrice).
+        </p>
+
+        <!-- Estates -->
+        <div id="grid" class="group">
+            @if(estatesToSearch.Count() == 0)
+            {
+                <p>We found no estates for your search. Try widening your search.</p>
+            }
+
+            @foreach(var estate in estatesToSearch)
+            {
+                //Get the first image of the estate available
+                var imageNode = @estate.Children.First();
+                var imageURL = imageNode.image;
+
+                <article>
+                    <a href="@estate.Url">
+                        <img src="/ImageGen.ashx?image=@imageURL&height=173&width=173&crop=resize&align=center&altImage=/img/no-image.png" alt="@estate.Name - @string.Format("{0:c}",estate.price)"/>
+                        <div>
+                            <h4>
+                                @estate.Name<br />
+                                @string.Format("{0:c}",estate.price)
+                            </h4>
+                        </div>                            
+                    </a>
+                </article>                
+            }
+        </div>

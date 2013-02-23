@@ -1,0 +1,11 @@
+﻿<!-- For each child page of the current page -->
+                    @foreach (var page in Model.Children) {
+                        <li>
+                            <img src="@page.Image" alt="@page.ImageCaption" />
+                            <!-- If the image caption is not empty then display it -->
+                            @if(@page.HasValue("ImageCaption"))
+                            {
+                                <p class="flex-caption">@page.ImageCaption</p>
+                            }
+                        </li>
+                    }

@@ -1,0 +1,19 @@
+﻿<!-- For each child page of the current page -->
+            @foreach (var page in @Model.Children) {
+                //Get the first EstatePhoto node under the current page in the loop
+                var imageNode = @page.DescendantsOrSelf("EstatePhoto").First();
+                var imageURL = imageNode.image;
+                    
+                //Get the number of estates
+                var numberOfEstates = page.Children.Count();
+
+                <article>
+                    <a href="@page.Url">
+                        <!-- Use ImageGen querystring to automatically generate a thumbnail & setup fallback image -->
+                        <img src="/ImageGen.ashx?image=@imageURL&height=173&width=173&crop=resize&align=center&altImage=/img/no-image.png" alt="@page.Name (@numberOfEstates)"/>
+                        <div>
+                            <h4>@page.Name (@numberOfEstates)</h4>
+                        </div>                            
+                    </a>
+                </article>
+            }

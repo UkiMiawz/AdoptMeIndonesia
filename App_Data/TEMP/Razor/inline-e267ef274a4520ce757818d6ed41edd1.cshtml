@@ -1,0 +1,21 @@
+﻿<!-- Select the first node that is the documentType Locations -->
+            @{ var locationsNode = Model.DescendantsOrSelf("Locations").First(); }
+
+            @foreach (var page in @locationsNode.Children) {
+                //Get the first EstatePhoto node underneath the LocationArea node
+                var imageNode = @page.DescendantsOrSelf("EstatePhoto").First();
+                var imageURL = imageNode.image;
+                    
+                //Get the number of properties
+                var numberOfProperties = page.Children.Count();
+
+                <article>
+                    <a href="@page.Url">
+                        <!-- Use ImageGen querystring to automatically generate a thumbnail & setup fallback image -->
+                        <img src="/ImageGen.ashx?image=@imageURL&height=173&width=173&crop=resize&align=center&altImage=/img/no-image.png" alt="@page.Name (@numberOfProperties)"/>
+                        <div>
+                            <h4>@page.Name (@numberOfProperties)</h4>
+                        </div>                            
+                    </a>
+                </article>
+            }

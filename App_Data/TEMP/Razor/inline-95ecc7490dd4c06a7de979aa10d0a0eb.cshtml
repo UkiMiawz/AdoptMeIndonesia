@@ -1,0 +1,70 @@
+﻿@{
+            //Get the values posted from the form
+            var locationID  = Request.Form["location"];
+            var price       = Request.Form["animal"];
+
+            //Check if locationID is null from the posted form data...
+            if(locationID == null)  
+            {
+                //If it is null then the form was not posted and the page was visited directly
+                <p>Please use the search to find properties.</p>
+
+                //Stop all other code running in this Macro
+                return;
+            }
+
+            //Setup variables for us to use
+            var location = String.Empty;
+            dynamic petsToSearch;
+
+
+            //If the locationID is -1 (any) then...
+            if(locationID == "-1")
+            {
+                //Set the location name to any
+                location = "any";
+
+                //Search for all pets using our searchQuery
+                petsToSearch = Model.AncestorOrSelf("Home").Descendants("Pet");
+            }
+            else
+            {
+                //Get the name of the location from the nodeID
+                location = Library.NodeById(locationID).Name;
+
+                //Search for pets under a specific location Node
+                petsToSearch = Library.NodeById(locationID).Descendants("Pet").Where(searchQuery);
+            }            
+        }
+               
+        <p>
+            You searched for pets in @location area
+        </p>
+
+        <!-- Pets -->
+        <div id="grid" class="group">
+            @if(petsToSearch.Count() == 0)
+            {
+                <p>We found no pet for your search. Try other area</p>
+            }
+
+            @foreach(var pet in petsToSearch)
+            {
+                //Get the first image of the estate available
+                var imageNode = @pet.Children.First();
+                var imageURL = imageNode.image;
+
+                <article>
+                    <a href="@pet.Url">
+                        <img src="/ImageGen.ashx?image=@imageURL&height=173&width=173&crop=resize&align=center&altImage=/img/no-image.png" alt="@pet.Name"/>
+                        <div>
+                            <h4>
+                                @pet.Name<br />
+								@pet.Animal - @pet.Gender - @pet.Gender<br />
+								@pet.Type - @pet.Size
+                            </h4>
+                        </div>                            
+                    </a>
+                </article>                
+            }
+        </div>

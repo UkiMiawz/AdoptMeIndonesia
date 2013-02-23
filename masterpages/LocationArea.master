@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="pageContent" runat="server">
+  <h2><umbraco:Item field="pageName" runat="server"/></h2>
+  
+  <div id="grid" class="group">
+      <umbraco:Macro runat="server" Language="cshtml">
+            <!-- For each child page of the current page -->
+            @foreach (var page in @Model.Children) {
+
+                //Get the first EstatePhoto node underneath the Estate node (page) in the loop
+                var imageNode = @page.Children.First();
+                var imageURL = imageNode.image;
+                    
+                <article>
+                    <a href="@page.Url">
+                        <!-- Use ImageGen querystring to automatically generate a thumbnail & setup fallback image -->
+                        <img src="/ImageGen.ashx?image=@imageURL&height=173&width=173&crop=resize&align=center&altImage=/img/no-image.png" alt="@page.Name - @string.Format("{0:c}",page.price)"/>
+                        <div>
+                            <h4>
+                                <!-- Display page name & format the price to £150,000.00 -->
+                                @page.Name<br />
+                                @string.Format("{0:c}",page.price)
+                            </h4>
+                        </div>                            
+                    </a>
+                </article>
+            }
+        </umbraco:Macro>
+    </div>
+</asp:content>

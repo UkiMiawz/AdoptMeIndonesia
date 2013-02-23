@@ -1,0 +1,28 @@
+﻿<ul>
+                        @{ var homeNode = Model.AncestorOrSelf("Home"); }
+                        <li><a href="@homeNode.Url" class="@Library.If(homeNode.Id == Model.Id, "selected", "")">@homeNode.Name</a></li>
+                        
+                        @foreach (var page in homeNode.Children.Where("Visible"))
+                        {
+                            <li>
+                                <a href="@page.Url" class="@Library.If(page.Id == Model.Id, "selected", "")">@page.Name</a>
+                            
+                                <!-- If the page has child nodes (2nd level) -->
+                                @if (page.Children.Where("Visible").Count() > 0)
+                                {
+                                    <ul>
+                                        @foreach (var childPage in page.Children.Where("Visible"))
+                                        {
+                                            var isSelected = false;
+
+                                            if (Model.Id == childPage.Id || (Model.Parent != null && Model.Parent.Id == childPage.Id)) {
+                                                isSelected = true;
+                                            }
+
+                                            <li><a href="@childPage.Url" class="@Library.If(isSelected, "selected", "")">@childPage.Name</a></li>    
+                                        }
+                                    </ul>
+                                }
+                            </li>   
+                        }
+                    </ul>

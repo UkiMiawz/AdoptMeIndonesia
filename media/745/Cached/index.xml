@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>dog2.jpeg</originalFileName>
+    <size>69237</size>
+    <dateLastModified>Sat, 23 Feb 2013 12:09:02 GMT</dateLastModified>
+    <width>709</width>
+    <height>750</height>
+    <cachedImage>
+      <fileName>sqsycmu3.jpeg</fileName>
+      <dateCreated>Sat, 23 Feb 2013 12:10:51 GMT</dateCreated>
+      <dateLastAccessed>Sat, 23 Feb 2013 12:24:06 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <rotate>0</rotate>
+      <flip />
+      <colorMode />
+      <crop>resize</crop>
+      <width>173</width>
+      <height>173</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

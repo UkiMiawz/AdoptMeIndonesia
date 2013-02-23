@@ -1,0 +1,11 @@
+﻿@{
+                            //Select the homepage node & then find the child locations node
+                            var homeNode = Model.AncestorOrSelf("Home");
+                            var locationsNode = homeNode.DescendantsOrSelf("Locations").First();
+                            
+                            //For each child pages of the locations node
+                            foreach (var page in locationsNode.Children)
+                            {
+                                <option value="@page.Id">@page.Name</option>
+                            }
+                        }

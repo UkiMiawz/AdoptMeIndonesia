@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="pageContent" runat="server">
+    <h2>
+        <umbraco:Macro runat="server" Language="cshtml">
+            <!-- Display page name & format the price to £150,000.00 -->
+            @Model.Name<br />
+        </umbraco:Macro>
+    </h2>
+
+    <!-- Photo Carousel using Flex Slider -->
+    <div class="flexslider-container">
+      <div class="flexslider">
+          <ul class="slides">
+                <umbraco:Macro runat="server" Language="cshtml">
+                    <!-- For each child page of the current page -->
+                    @foreach (var page in Model.Children) {
+                        <li>
+                            <img src="@page.Image" alt="@page.ImageCaption" />
+                            <!-- If the image caption is not empty then display it -->
+                            @if(@page.HasValue("ImageCaption"))
+                            {
+                                <p class="flex-caption">@page.ImageCaption</p>
+                            }
+                        </li>
+                    }
+                </umbraco:Macro>
+          </ul>
+      </div>
+    </div>
+
+    <h3>About Pet</h3>
+    <!--Pet details -->
+    <dl id="details">
+        <dt>Gender: </dt>
+        <dd><umbraco:Item field="gender" runat="server" /></dd>
+ 
+        <dt>Size: </dt>
+        <dd><umbraco:Item field="size" runat="server"/></dd> 
+		
+		<dt>Birth Date: </dt>
+        <dd><umbraco:Item field="birthDate" runat="server"/></dd> 
+		
+		<dt>Type: </dt>
+        <dd><umbraco:Item field="type" runat="server"/></dd> 
+		
+		<dt>Shelter Name: </dt>
+        <dd><umbraco:Item field="shelterName" runat="server"/></dd> 
+    </dl>
+    <!-- Other Details -->
+    <umbraco:Item field="aboutPet" runat="server"/>
+
+    <h3>Map</h3>
+    <!-- Google Maps API Map-->  
+    <div id="estateMap"></div>    
+
+</asp:Content>
+
+<asp:Content ContentPlaceHolderId="scripts" runat="server">
+    <!-- Google Maps API -->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+        //Only when the DOM is ready can we load the Map in...
+        $(document).ready(function () {
+            //As our property address stores the value as CSV as lat,lon,zoom we can just pass it to our function loadGoogleMap
+            loadGoogleMap(
+                <umbraco:Item field="address" runat="server"/>
+            );
+        });
+    </script>
+</asp:Content>

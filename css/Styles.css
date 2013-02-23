@@ -1,0 +1,216 @@
+/* -- Fonts -- */
+body { font-family:Verdana; }
+h1, h2, h3, h4, h5, h6 { color:#554D40; font-family:'Arvo', Arial, serif; font-weight:400; text-shadow:0 1px 0 rgba(255, 255, 255, 0.9); }
+h1 { font-size:40px; }
+h2 { font-size:30px; }
+h3 { font-size:25px; }
+h4 { font-size:20px; }
+h5 { font-size:18px; }
+h6 { font-size:16px; }
+p { font-size:16px; }
+
+/* -- Selection -- */
+::-moz-selection { background:#fe57a1; color:#fff; text-shadow:none; }
+::selection { background:#fe57a1; color:#fff; text-shadow:none; }
+
+/* -- Clearfix aka Group --*/
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */ 
+.group:before, .group:after { content:""; display:table; }
+.group:after { clear:both; }
+.group { zoom:1; }
+
+/* -- Layout -- */
+html { font-size:100%; -webkit-text-size-adjust 100%; -ms-text-size-adjust:100%; overflow-y:scroll; }
+#container { margin:20px auto; padding:0 0 25px 0; width:960px; }
+#main > aside { float:left; padding:20px; width:175px; /*215-20-20=175*/ }
+#pageContent { float:right; padding:0 20px; width:690px; /*740-20-20=690*/ }
+
+/* -- Page Background Colours & Design -- */
+body  
+{  
+    background: url(../img/adopt2.jpg) no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+#container { background:#f6eddf url(../img/bg-texture.png) repeat 0 0; box-shadow:rgba(0,0,0,0.8) 0 0 10px; }
+
+
+/* -- Header -- */
+header { background:#99B2B7; margin:0 0 60px 0; padding:10px 20px; position:relative; text-align:right; }
+header h1, header h2 { color:#000000; }
+header h1 a { color:#000000; text-decoration:none; }
+
+/* -- aside -- */
+aside { background:#D9CEB2; margin:0 0 50px -20px; position:relative; }
+aside:after { border-width:20px; border-color:transparent #7A6A53 transparent transparent; border-style:solid; bottom:-20px; content:""; display:block; left:-20px; position:absolute; z-index:-1; }
+aside h3 { color:#320d1c; text-shadow:0 1px 0 #E75C96; }
+
+/* -- Navi -- */
+nav { margin:0 -20px 20px -20px; }
+nav a { color:#000; display:block; height:26px; line-height:26px; margin:0 0 0 -10px; padding:0 0 0 30px; text-decoration:none; }
+nav a.selected { background-color:#7A6A53; position:relative; color:#fff }
+nav a.selected:before { border-width:10px; border-color:transparent #474138 transparent transparent; border-style:solid; bottom:-10px; content:""; display:block; left:-10px; position:absolute; z-index:-1; }
+nav a.selected:after { border-width:13px; border-color:transparent transparent transparent #7A6A53; border-style:solid; bottom:0; content:""; display:block; position:absolute; right:-26px; }
+nav ul > li > ul a { padding: 0 0 0 45px; }
+
+/* -- Search -- */
+#search {}
+#search label { display:block; margin:10px 0 0 0; }
+#search span { display:block; margin:0 0 5px 0; }
+#search select,
+#search input:not([type='submit']) { border:1px solid rgba(0,0,0,0.0.15); }
+#search input[type='submit'] { background:#99B2B7; border:1px solid #86254d; -moz-border-radius:15px; -ms-border-radius:15px; -o-border-radius:15px; -webkit-border-radius:15px; border-radius:15px; -moz-box-shadow:rgba(0,0,0,0.4) 0 0 1px; color:##320D1C; font-family:'Arvo', Arial, serif; font-size:20px; height:30px; margin:20px 0 0 0; padding:0 10px; text-shadow:0 1px 0 #E75C96; }
+#search input[type='submit']:hover,
+#search input[type='submit']:active { background:#832c50; border:1px solid #330D1D; position:relative; top:1px; }
+#search input[type='submit']:focus {}
+#search .slider { font-size:12px; }
+
+/* -- Footer -- */
+footer { background:#99B2B7; color:#320d1c;  height:50px; margin:20px 0 0 -15px; padding:0; position:relative; text-align:center; }
+footer p { line-height:50px; }
+footer a { color:#320d1c; }
+footer a[href*='umbraco.com'] { position:relative; }
+footer a[href*='umbraco.com'] > img { left:-170px; opacity:0.2; position:absolute; top:-10px; -moz-transition:opacity 0.3s; -ms-transition:opacity 0.3s; -o-transition:opacity 0.3s; -webkit-transition:opacity 0.3s; transition:opacity 0.3s;  }
+footer a[href*='umbraco.com']:hover > img { opacity:0.4; }
+footer:before { border-width:20px; border-color:transparent #45656B transparent transparent; border-style:solid; bottom:-20px; content:""; display:block; left:-20px; position:absolute; z-index:-1; }
+footer:after { border-width:25px; border-color:#99B2B7 transparent #99B2B7 #99B2B7; border-style:solid; bottom:0; content:""; display:block; position:absolute; right:-50px; }
+
+/* -- Main Page Content -- */
+#pageContent { font-size:16px; }
+#pageContent h1,
+#pageContent h2,
+#pageContent h3,
+#pageContent h4,
+#pageContent h5,
+#pageContent h6 { margin:10px 0; }
+#pageContent p { margin:5px 0 10px 0;}
+#pageContent em { font-style:italic; }
+#pageContent strong { font-weight:bold; }
+#pageContent ul { list-style-type:disc; margin:5px 0 10px 35px; }
+#pageContent ul > li > ul { list-style-type:circle; margin:0 0 0 30px; }
+#pageContent ol { list-style-type:decimal; margin:5px 0 10px 35px; }
+#pageContent a { color:#AD3F6D; color:rgba(173,63,109,1); -moz-transition:color 0.5s; -ms-transition:color 0.5s; -o-transition:color 0.5s; -webkit-transition:color 0.5s; transition:color 0.5s; }
+#pageContent a:hover { color:#AD3F6D; color:rgba(173,63,109,0.7); }
+
+#details { background:rgba(0,0,0,0.4); -moz-border-radius:2px; -ms-border-radius:2px; -o-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; float:right; margin:0 0 20px 20px; width:200px; }
+#details dt { font-weight:bold; float:left; padding:5px; }
+#details dd { padding:5px; }
+
+
+/* -- Grid --*/
+#grid {}
+#grid article
+{
+    border:1px solid rgba(0,0,0,0.12);
+    float:left;
+    height:173px; /*175 - 1-1 = 173 */
+    margin:5px;
+    padding:0;
+    position:relative;
+    width:173px; /*175 - 1-1 = 173 */
+} 
+
+#grid article a { display:block; height:173px; overflow:hidden; position:relative; text-decoration:none; }
+#grid article img { position:absolute; }
+#grid article div { background:rgba(0,0,0,0.5); color: #fff; bottom:-103px; height:163px; padding:5px; position:absolute; -moz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; -webkit-transition:all 0.5s; transition:all 0.5s; width:173px; }
+#grid article a:hover div { bottom:0; }
+#grid article sdivpan h4 { color:#320D1C; }
+
+#grid.locations div { height: 50px; }
+
+/* -- Slider Overwrites & Styles -- */
+#pageContent ul.slides,
+#pageContent ul.flex-direction-nav,
+#pageContent ol.flex-control-nav { list-style-type:none; margin:0; }
+.flexslider-container { margin:0 auto 30px auto; width:96%; }
+.flexslider a { text-decoration:none; }
+
+
+/* -- Property Map -- */
+#estateMap { height:390px; width:690px; }
+
+
+/* =========== MEDIA QUERIES =========== */
+/*-- Netbook  --*/
+@media screen and (max-width:1100px)
+{
+    /* Adjust width of main container & content */    
+    #container { width:780px; }
+    header:after { width:780px; }
+    #pageContent { width:520px; /*560-20-20=520*/ }
+    #estateMap { width:520px; }
+}
+
+
+/*-- Mobile  --*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+       screen and (min-device-pixel-ratio : 1.5),
+       screen and (max-width: 480px)
+{
+        
+    /* Adjust Font Sizes */
+    h1 { font-size:25px; }
+    h2 { font-size:20px; }
+    h3 { font-size:18px; }
+    h4 { font-size:16px; }
+    h5 { font-size:14px; }
+    h6 { font-size:12px; }
+    p { font-size:14px; }
+    
+    /* Adjust the header */ 
+    header { margin:0; }  
+    header:before { left:0; }
+    header:after { bottom:-9px; z-index:2; width:480px; }
+    
+    /* Adjust the navi */
+    #main > aside { float:none; margin:0; padding:0; width:auto; }
+    nav { margin:0; padding:30px 0 0 0; }
+    nav li { font-size:26px; }
+    nav a { margin:0; padding:5px 0 5px 30px; }
+    nav li > ul { display:none; }
+    nav a.selected:before,
+    nav a.selected:after { display:none; }
+        
+    /* Hide Search for now */
+    #search { display:none; }
+    
+    /*Adjust Footer */
+    footer:before,
+    footer:after { display:none; }
+    footer { margin-left:0; }
+    
+    /* Adjust width of main container & content */    
+    #container { margin-bottom:0; margin-top:0; width:480px; }
+    
+    #pageContent { width:440px; /*480-20-20=440*/ }
+    #estateMap { width:440px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+h1 {
+ color:#554D40; font-family:'Arvo', Arial, serif; font-size:40px !important; font-weight:400;
+}
+
+h2 {
+ color:#554D40; font-family:'Arvo', Arial, serif; font-size:30px !important; font-weight:400;
+}
+
+h3 {
+ color:#554D40; font-family:'Arvo', Arial, serif; font-size:25px !important; font-weight:400;
+}
+
